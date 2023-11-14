@@ -79,6 +79,6 @@ See [Bibliography page](ESE-Literature.md).
 
 ## Acknowledgments
 
-Mirko Stocker and Stefan Kapferer contributed to the ESE content via discussion input, experimenation and review feedback. 
+Bärbel Bohr, Mirko Stocker and Stefan Kapferer contributed to the ESE content via discussion input, experimenation and/or review feedback. 
 
 This work was funded by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).

@@ -5,7 +5,7 @@
 * How does ESE use and integrate concepts from the standard, for instance its Value Register? 
   * *Answer:* ESE provides mapping tables for the processes in the standard, see [background information](ESE-BackgroundInformation.md#from-ieee-std-7000-processes-to-agile-practices). It does not enforce any particular template or notation for the artifacts and concepts (also including EVRs and VBSRs), but suggests them, as well techniques to create them with a little extra effort as possible. See for instance the three techniques for Story Valuation. That said, there is a folder with work-in-progress [Markdown templates](/templates) for the standards artifacts (subject to change at any time).  
   
-* When should ConOps, Value Register, [EVRs](/ESE-Glossary.md#evr) be written up? On a project or before? <!-- smell/suspect: big analysis upfront, "BAUF" -->  
+* When should [ConOps](/ESE-Glossary.md#conops), [Value Register](/ESE-Glossary.md#value-register), [EVRs](/ESE-Glossary.md#evr) be written up? On a project or before?   
   * *Answer:* A Sprint/Iteration 0 can be performed to carve out [epics](https://www.agilealliance.org/glossary/epic/) and yield system context diagrams. Early value-related artifacts (ConOps, Value Register with initial set of EVRs) can then accompany these. Each development sprint/iteration can then derive VBSRs from the EVRs and update the existing artifacts as more and more information becomes available. See "Misc" section below for acronym resolution!
 
 * What is the difference between EVRs and VBSRs? 
