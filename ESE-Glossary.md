@@ -50,7 +50,7 @@ IEEE Std. 7000: "ethical value: Value in the context of human culture that suppo
 
 ### EVR 
 
-EVR stands for ethical value requirement (EVR). An EVR is an "organizational or technical requirement catering to values that stakeholders and conceptual value analysis identified as relevant for the SOI."
+EVR stands for Ethical Value Requirement (EVR). An EVR is an "organizational or technical requirement catering to values that stakeholders and conceptual value analysis identified as relevant for the SOI."
 
 ### Harm
 
@@ -69,6 +69,7 @@ System of Interest, "System whose life cycle is under consideration".
 IEEE Std. 7000 defines: "Group containing one core value and several values instrumental to, or related to, the core value."
 
 In ESE, value clusters can be documented in several ways, for instance as part of Value Trees (see example in Story Valuation). ESE also provides Markdown templates for them.
+
 
 ### Value Register
 

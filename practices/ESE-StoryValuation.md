@@ -9,6 +9,7 @@ Output: New or updated Value Register, EVRs, (optional) VBSRs
 Activity: *Story Valuation*
 ---------------------------
 also known as Value-Enhanced User Story Elicitation, People-Society-Planet INVESTing 
+<!-- 4852 words on Oct 25, 2023 -->
 
 *Quick links:* (1) [Goal and Purpose](#goal-and-purpose) (2) [Notations](#notations) (3) [Techniques](#valuation-techniques) (4) [Usage](#usage) (5) [Application Hints](#hints-and-pitfalls-to-avoid) (6) [Other Practices](/practices/) (7) [ESE Home](/README.md)
 
@@ -57,6 +58,8 @@ The following UML object instance diagram (aka Value Tree) illustrates the relat
 
 ![ESE/IEEE 7000 Value Tree](/images/ESE-ValueObjectTree.png)
 
+<!-- TODO (H) comment on L1 value vs. Value Demonstator (see ISD paper notes) -->
+
 Note that the words [benefits](/ESE-Glossary.md#benefit) and [harms](/ESE-Glossary.md#harm) in the figure do not imply the usage, or sole usage, of any particular ethical theory.  
 
 ### Notation(s)
@@ -79,7 +82,7 @@ This value cluster has [H, M, L] priority for me.
 
 Values can be positive or negative in a given context; IEEE Std. 7000 explains that in Annex "B.3 Value axioms" (so absence of certain values, the negative ones, is good!). The wording in the template is inspired by the definition of terms in the standard. <!-- also used: "creation" and "prohibition" -->
 
-b) Complementarily and/or alternatively, a relative *Value Weighting* makes a consideration/assessment explicit. It may look like this:
+b) Complementary and/or alternatively, a relative *Value Weighting* makes a consideration/assessment explicit. It may look like this:
 
 ~~~
 In the context of SOI [Name],
@@ -121,11 +124,11 @@ In ESE, EVRs may take the standard story form, slightly extended with a brief et
 As a [role]
 I want to [action/feature]
 so that [benefit] is achieved 
-  and that [Values a, b, c] are promoted,
-  accepting that [Values x, y, z] are reduced.
+  and that [values a, b, c] are promoted,
+  accepting that [values x, y, z] are reduced.
 ~~~
 
-Alternatively, the value-enhanced user story may also refer to Value Register entries, possibly expressed as Value Epics, Value Weightings and/or Value Narratives (as introduced previously). Note that risk treatment options and value demonstrator information is not made explicit in this template; such information can be added in free form.
+Alternatively, the value-enhanced user story may also refer to Value Register entries, possibly expressed as Value Epics, Value Weightings and/or Value Narratives (as introduced previously). Note that risk treatment options and value demonstrators are not made explicit in this template; such information can be added in free form.
  
 #### Value-Based System Requirement (VBSRs)
 
@@ -251,7 +254,7 @@ NOTE: Opposing values can be positive or negative."
 The following steps can be followed when applying the technique: 
 
 1. *Pick 2-3 core values from the table.* Use the information in the columns "Related value" and "Opposing value" columns in Table G.1 to make them more complete, concrete, and tangible.
-2. *Explain the relevance of each core value in the given project/product context by way of example and/or refinement.* You might want to tell a story and/or point out the positive and negative consequences of this value in the form of a narrative or demonstrator (see column in table above). This information may come from the Value Register of the project/product development effort when IEEE Std. 7000 is followed (if no Value Register exists yet, it is a good time to create one now).  
+2. *Explain the relevance of each core value in the given project/product context by way of example and/or refinement.* You might want to tell a story and/or point out the positive and negative consequences of this value in the form of a narrative (see column in table above). This information may come from the Value Register of the project/product development effort when IEEE Std. 7000 is followed (if no Value Register exists yet, it is a good time to create one now).  
 3. *Prioritize the value(s), either absolutely or relatively.* For instance, you may want to use a writing style similar to that in the Agile Manifesto ("We value mm over nn").
 
 Repeat these steps for each stakeholder group. Keep an eye on effort, focus on and begin with high-priority, high-impact values. 
@@ -438,8 +441,8 @@ ESE does not contain any design practices at present; the [Design Practice Repos
 Ethical values and ways to handle them are explained here: 
 
 * The article ["Human Values as the Basis for Sustainable Information System Design"](https://research.wu.ac.at/ws/portalfiles/portal/19837176/Human+Values+as+the+Basis+for+Stustainable+Information+Systems+Design+%28Pre-print%29.pdf) has many more examples of values.
-* Literature on Material Value Ethics may help with prioritization: 
-  * For instance, Table B.1 in Annex B of IEEE Std. 7000 summarizes five principles for value ranking and provides examples. And Table D.1 in Annex D lists legal, societal, and environmental feasibility study guidelines (pages 62 to 64). 
+* IEEE Std. 7000 and literature on "Material Value Ethics" may help with prioritization: 
+  * For instance, advice is given on in Clause 8.3, Step d) on page 41; seven types of ethical considerations and three external sources are listed. Table B.1 in Annex B of IEEE Std. 7000 summarizes five principles for value ranking and provides examples; Table D.1 in Annex D lists legal, societal, and environmental feasibility study guidelines (pages 62 to 64). 
   * And ["Value-Sensitive Design"](https://mitpress.mit.edu/9780262039536/value-sensitive-design/) compiles 13 human values in Table 2.1 on page 28; Table 3.1 on pages 61 to 64 summarizes 17 value-sensitive design methods.
 * A 2019 conference presentation by Jennifer Riggins called ["How (and Why) to Factor Tech Ethics into Your Sprint"](https://www.infoq.com/presentations/tech-ethics-sprint/) and her article ["Tech Ethics New Year’s Resolution: Don’t Build Software You Will Regret"](https://thenewstack.io/tech-ethics-new-years-resolution-dont-build-software-you-will-regret/) ask valuation questions, effectively forestalling/antedating our three valuation techniques, for instance "What is the worst possible use case for this code?" Other questions concern connectivity and data transfer as well as data storage and lifetime.
 * Annex B of IEEE Std. 7000 covers value concepts, starting from philosophical foundations in B1; B2 presents an example and B.4 covers value ranking. Annex C is about ethical theories applied to ethical value elicitation, for instance, utilitarian ethics, virtue ethics, and duty ethics.
@@ -465,7 +468,7 @@ The [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/) is 
 ```yaml
 title: "ESE activity: Story Valuation"
 author: Olaf Zimmermann (ZIO)
-date: "11, 13, 2023 (Source: Project ESE)"
+date: "11, 20, 2023 (Source: Project ESE)"
 copyright: The author, 2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
