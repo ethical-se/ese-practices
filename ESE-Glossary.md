@@ -70,7 +70,6 @@ IEEE Std. 7000 defines: "Group containing one core value and several values inst
 
 In ESE, value clusters can be documented in several ways, for instance as part of Value Trees (see example in Story Valuation). ESE also provides Markdown templates for them.
 
-
 ### Value Register
 
 IEEE Std. 7000 defines: "An information store created for transparency and traceability reasons, which contains data and decisions gained in ethical values elicitation and prioritization and traceability into ethical value requirements." 

@@ -19,7 +19,7 @@ Not performing an Ethical Review compromizes the value of ESE; the Story Valuati
 
 ### Instructions 
   
-*Inspect the user story implementations with regards to the prioritized Value Cluster demonstrators/narratives and Value Requirements from Story Valuation in a meeting. Capture the meeting outcome in a report.*
+*Inspect the user story implementations with regards to the prioritized Value Cluster demonstrators and Value Requirements from Story Valuation in a meeting. Capture the meeting outcome in a report.*
 
 Record answers to the following questions during the review meeting:
 
@@ -121,7 +121,7 @@ Miscellaneous:
 ```yaml
 title: "ESE artifact: Ethics Review Meeting/Report"
 author: Olaf Zimmermann (ZIO)
-date: "11, 13, 2023 (Source: Project ESE)"
+date: "11, 20, 2023 (Source: Project ESE)"
 copyright: The author, 2023 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

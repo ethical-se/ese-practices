@@ -10,11 +10,9 @@
 
 Ethical Software Engineering (ESE) is for you if: 
 
-1. You see yourself as a socially responsible software engineer. <!--, not just a "code monkey".[^1] -->
+1. You see yourself as a socially responsible software engineer.
 2. You see the risk that the software under construction may have undesired and/or unexpected and/or unjustified effects for one or more of its stakeholder groups and want to manage and mitigate this risk.  
 3. You look for a set of essential, as-light-as-possible practices that increase the chances of your project or product development effort becoming compliant with IEEE Std. 7000. 
-
-<!-- [^1]: "Code monkey" is a term used by Martin Fowler in presentations on the topic. We use it here under the assumption that monkeys will not feel discriminated by this term. -->
 
 ESE targets any software engineer[^2] who wishes to create ethically valuable software, agile teams in particular. Its motivating themes are:
 
@@ -75,6 +73,14 @@ A collection of [Frequently Asked Questions (FAQs)](ESE-FAQ.md) is available.
 ## Literature and Related Work
 
 See [Bibliography page](ESE-Literature.md).
+
+
+## Evaluation and Feedback 
+
+See [experimentation](/experimentation/) folder and README.
+
+*January 13, 2024*  
+*[ZIO](https://medium.com/olzzio) aka Olaf Zimmermann*
 
 
 ## Acknowledgments

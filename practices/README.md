@@ -1,5 +1,4 @@
 # Activities and artifacts in Ethical Software Engineering (ESE)
-<!-- 273 words on Oct 25, 2023 -->
 
 ESE extends three existing practices (activities, artifacts) and proposes two new ones. It also uses three existing ones (unchanged). 
 

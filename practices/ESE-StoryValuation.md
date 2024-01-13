@@ -9,7 +9,6 @@ Output: New or updated Value Register, EVRs, (optional) VBSRs
 Activity: *Story Valuation*
 ---------------------------
 also known as Value-Enhanced User Story Elicitation, People-Society-Planet INVESTing 
-<!-- 4852 words on Oct 25, 2023 -->
 
 *Quick links:* (1) [Goal and Purpose](#goal-and-purpose) (2) [Notations](#notations) (3) [Techniques](#valuation-techniques) (4) [Usage](#usage) (5) [Application Hints](#hints-and-pitfalls-to-avoid) (6) [Other Practices](/practices/) (7) [ESE Home](/README.md)
 
@@ -442,7 +441,7 @@ Ethical values and ways to handle them are explained here:
 
 * The article ["Human Values as the Basis for Sustainable Information System Design"](https://research.wu.ac.at/ws/portalfiles/portal/19837176/Human+Values+as+the+Basis+for+Stustainable+Information+Systems+Design+%28Pre-print%29.pdf) has many more examples of values.
 * IEEE Std. 7000 and literature on "Material Value Ethics" may help with prioritization: 
-  * For instance, advice is given on in Clause 8.3, Step d) on page 41; seven types of ethical considerations and three external sources are listed. Table B.1 in Annex B of IEEE Std. 7000 summarizes five principles for value ranking and provides examples; Table D.1 in Annex D lists legal, societal, and environmental feasibility study guidelines (pages 62 to 64). 
+  * For instance, advice is given in Clause 8.3, Step d) on page 41; seven types of ethical considerations and three external sources are listed. Table B.1 in Annex B of IEEE Std. 7000 summarizes five principles for value ranking and provides examples; Table D.1 in Annex D lists legal, societal, and environmental feasibility study guidelines (pages 62 to 64). 
   * And ["Value-Sensitive Design"](https://mitpress.mit.edu/9780262039536/value-sensitive-design/) compiles 13 human values in Table 2.1 on page 28; Table 3.1 on pages 61 to 64 summarizes 17 value-sensitive design methods.
 * A 2019 conference presentation by Jennifer Riggins called ["How (and Why) to Factor Tech Ethics into Your Sprint"](https://www.infoq.com/presentations/tech-ethics-sprint/) and her article ["Tech Ethics New Year’s Resolution: Don’t Build Software You Will Regret"](https://thenewstack.io/tech-ethics-new-years-resolution-dont-build-software-you-will-regret/) ask valuation questions, effectively forestalling/antedating our three valuation techniques, for instance "What is the worst possible use case for this code?" Other questions concern connectivity and data transfer as well as data storage and lifetime.
 * Annex B of IEEE Std. 7000 covers value concepts, starting from philosophical foundations in B1; B2 presents an example and B.4 covers value ranking. Annex C is about ethical theories applied to ethical value elicitation, for instance, utilitarian ethics, virtue ethics, and duty ethics.
