@@ -1,5 +1,4 @@
 # Roles in ethical-software-engineering (ESE)
-<!-- word count: 236 (Oct 25, 23) -->
 
 ## Overview 
 

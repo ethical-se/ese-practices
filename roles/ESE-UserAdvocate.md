@@ -6,7 +6,6 @@ Activities: IEEE Std. 7000 processes (Clauses 7 to 11)
 
 Role: *User Advocate*
 ---------------------
-<!-- word count: 189 (Oct 25, 23) -->
 
 ### Persona 
 

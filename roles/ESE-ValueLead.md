@@ -5,7 +5,6 @@ Activities: IEEE Std. 7000 processes (Clauses 7 to 11)
 
 Role: *Value Lead*
 ------------------
-<!-- word count: 354 (Oct 25, 23) -->
 
 The value lead is a "person assigned to coordinate and conduct tasks related to ethical values elicitation and prioritization and traceability of values through the requirements and design artifacts." (Source: IEEE Std. 7000)
 

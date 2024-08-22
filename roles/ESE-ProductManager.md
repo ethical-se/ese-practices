@@ -6,7 +6,6 @@ Activities: IEEE Std. 7000 processes (Clauses 7 to 11)
 
 Role: *Product Manager*
 ---------------------
-<!-- word count: 222 (Oct 25, 23) -->
 
 ### Persona 
 

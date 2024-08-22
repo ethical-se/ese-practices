@@ -1,4 +1,14 @@
-# ethical-software-engineering (ESE)
+
+# Ethical Software Engineering (ESE)
+
+*News (March 14, 2024):* ESE featured at ETHICOMP 2024 *"Bringing Ethical Values into Agile Software Development"*: 
+
+* Conference [presentation](https://ozimmer.ch/assets/presos/ZIO-ESEAtETHICOMPv10p.pdf) (PDF, 23 slides)
+* Peer-reviewed [extended abstract](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf) (PDF, 3 pages)
+* Full proceedings [paper](resources/ESE-ETHICOMP2024FullPaperAuthorsCopyV101.pdf) (PDF, 10 pages)
+
+## Overview and Orientation
+
 *TL;DR:* [IEEE Std. 7000](https://ieeexplore.ieee.org/document/9536679) meets Agile practices
 (note: access to IEEE Std. 7000 is free after registration for IEEE Xplore).
 
@@ -100,7 +110,7 @@ See [Bibliography page](ESE-Literature.md).
 
 See [experimentation](/experimentation/) folder and README.
 
-*August 21, 2024*  
+*August 22, 2024*  
 *[ZIO](https://medium.com/olzzio) aka Olaf Zimmermann*
 
 
