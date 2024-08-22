@@ -1,4 +1,5 @@
 # Roles in ethical-software-engineering (ESE)
+<!-- word count: 236 (Oct 25, 23) -->
 
 ## Overview 
 
@@ -44,4 +45,4 @@ W.r.t. processes, ConOps (IEEE Srd. 7000) and Product Vision (Scrum) have a stro
   
 ## Acknowledgment
 
-This work was funded by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+Version 1.0 of ESE was supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).

@@ -36,7 +36,7 @@
 ### Agile Values and Principles
 
 * Does usage of IEEE Std. 7000 introduce the risk of harming project velocity?
-  * *Answer:* Our motivation in this work is to prevent this. 
+  * *Answer:* Our motivation in this work is to prevent this. Some slow down might actually be beneficial as value elicitation and conflict resolution do take time and require rigor and effort. The more critical a system is (think about safety-critical systems), the more effort and time for careful, responsible analysis and design work is in order.
 
 * How do the Agile values in the manifesto and those in XP etc. fit in?
   * *Answer:* While related, not all of the agile values directly correspond to ethical values such as transparency, sustainability, privacy, fairness, and accountability. The following table maps the four values of the Agile Manifesto to selected, exemplary core values from Table G.1 in IEEE Std. 7000:
@@ -72,7 +72,20 @@ The 12 principles, also quoted from the Agile Manifesto, map to IEEE Std. 7000 (
 
 Note that Privacy is absent from the examples; values such as Respect and Trust relate to several other Agile principles.
 
-### ESE and other methods
+### ESE and other methods/assets
+
+* How do IEEE Std. 7000 and ESE relate to the [ACM Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics) and similar codes (including those on ethical artificial intelligence)?
+  * *Answer:* IEEE Std. 7000 specifies processes, applicable for organisations, teams, projects; ESE adds practices to integrate the standards concepts into agile development. Complementarily, codes such as the ACM one focus on indiuviduals and their behavior. The standard, the codes, and ESE share common goals such as raising awareness for the existence and importance of ethical values and moral obligations in the context of systems and software engineering.
+
+* How does ESE relate to the [Proactive CARE framework](https://ethics.acm.org/wp-content/uploads/2021/03/Proactive-CARE-for-Computing-Professionals.pdf), available on the ACM ethics website?
+  * *Answer:* See the following table: 
+
+| Proactive CARE (Gotterbarn et al) | IEEE Std. 7000, ESE |
+|-|-|
+| "Consider who might be affected and how"| ConOps work, case for ethics (IEEE Std. 7000), Story Valuation techniques (ESE) | 
+| "Analyze the situation’s details"| Ethical Value Requirement (EVR) elicitation, follow-on design work, reviews | 
+| "Review other obligations and limitations"| Work on ConOps, EVRs | 
+| "Evaluate the best course of action"| Design decision making | 
 
 * Can ESE be combined with other methods and description standards? 
   * *Answer:* Yes. For instance, in [arc42](https://www.arc42.de/) descriptions, the ESE output could go to a new section ("arc42+") or to existing ones: 
@@ -90,7 +103,7 @@ Note that Privacy is absent from the examples; values such as Respect and Trust 
 ### Misc
 
 * What do all the acronyms mean (EVR, SOI, VBSR, ...)? 
-  * *Answer:* See the [Glossary](/ESE-Glossary.md#overview)
+  * *Answer:* See the [Glossary](/ESE-Glossary.md#overview).
 
 * What is available in ESE (this repository)? 
   * *Answer:* ESE describes two new [practices](/practices/), Story Valuation and Ethics Review, and extends three existing ones, Definition of Ready, Definition of Done, and Retrospective. It also features [roles](/roles/) from IEEE Std. 7000. 
@@ -113,7 +126,7 @@ Note that Privacy is absent from the examples; values such as Respect and Trust 
 * How does ESE relate to and use existing documentation templates such as arc42?
   * *Answer:* It is complementary and extends what is already there. Detailed information is work in progress (see Future Work information).
 
-* There are many regulations in countries and organizations, compliance management often is in place. Why is value-based systems/software engineering still needed? What does ESE differently. 
+* There are many regulations in countries and organizations, compliance management often is in place. Why is value-based systems/software engineering still needed? What does ESE differently? 
   * *Answer:* Values can be brought forward by any stakeholder (group); both positive and negative ones exist, with the aim to promote responsible behavior (in contrast to just following rules). ESE pushes ethical thinking and designing into the developer mainstream, practitioners no longer have to pull it from the literature or online resources.
   
 * What is in the method engineering backlog?
@@ -124,4 +137,4 @@ Note that Privacy is absent from the examples; values such as Respect and Trust 
 
 ## Acknowledgment
 
-This work was funded by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+Version 1.0 of ESE was supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).

@@ -85,12 +85,14 @@ date: "mm, dd, yyyy (Source: Project ESE)"
 
 ### Hints and Pitfalls to Avoid
 
+* Be honest in your assessments.[^1] 
+* Spend as much time as needed on ethics and be as efficient as possible; avoid a mere "checkbox ethics" approach, often perceived as an antipattern.[^2]  
 * Consistency matters; define and agree on a DoD at the project start and stick to it. Do not change the criteria in flight. Otherwise, the practice might yield false data and lose its value.
 * Plan and execute the [acceptance testing](https://www.agilealliance.org/glossary/acceptance) adequately. Keep an eye on effort vs. benefit; it might not be needed and/or not possible to let end users test every story in each sprint. Choosing a suited granularity and frequency is a product management responsibility.
-* Be honest in your assessments.[^1] 
   
 [^1]: Arguably, honesty is a fundamental ethical value that can be expected to also appear in many Value Registers.
 
+[^2]: See "Stop Using Checkbox Ethics" ([Part 1](https://activemind.ai/blog/checkboxing1/), [Part 2](https://activemind.ai/blog/checkboxing2/)) and/or ["Research Ethics and Ethical Research: An Example of Integrating Ethics in R&I Research"](https://link.springer.com/article/10.1007/s41125-023-00096-0) for a clarification of the term "checkbox ethics" (in a broader context). <!-- https://www.researchgate.net/publication/372540560_AI_governance_themes_knowledge_gaps_and_future_agendas -->
 
 ### Related Artifacts and Practices 
 

@@ -83,7 +83,7 @@ date: "mm, dd, yyyy (Source: Project ESE)"
 * Consistency matters; define and agree on a DoR at the project start. 
 * Do not change the DoR during the project. If you do, it might yield false data and lose its value.
 * Do not over-analyze. This would be anti-agile.
-* Do no cheat. Doing the right things and doing them right is a maxim that applies here (and elsewhere).
+* Do no cheat. This would be unethical. Doing the right things and doing them right is a maxim that applies here (and elsewhere). <!-- redundant with DoD: Do not fall for the "checkbox ethics" antipattern. -->
 * If you are not sure whether the DoR is met and decide to go ahead, document your doubts and be ready to go back if needed.
 
 

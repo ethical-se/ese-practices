@@ -22,7 +22,7 @@ Retrospectives are an established Agile practice to periodically reflect on what
 
 The approach and results of the value-based approach in ESE must be reviewed periodically (w.r.t efficiency and effectiveness).
 
-> *As a team of agile practitioners, we want to reflect periodically whether we are doing the rights things and whether we are doing things right. There always is room and opprtunity for improvement. Being concerned about ethics values, we want to improve our value-based engineering practices continuously.*
+> *As a team of agile practitioners, we want to reflect periodically whether we are doing the rights things and whether we are doing things right. There always is room and opportunity for improvement. Being concerned about ethics values, we want to improve our value-based engineering practices continuously.*
 
 Advantages and benefits of a Value Retrospective include: 
 
@@ -98,8 +98,9 @@ Note that this retrospective primarily focuses on the development team and how i
 * Get all team members actively involved in the retrospective. Reflect from multiple perspectives, including but not limited to end users, product owner/manager, development team, operations staff. 
 * Create an open, trusted atmosphere; retrospectives are not the right place for blame games.[^1]
 * Reserve enough time for the ethics- and value-related part; run it as a separate meeting if other topics (tools, practices, etc.) take too much time and attention.
-* Record the results in a team-internal space. Control access to it strictly; do not forget to remove accessr rights when a team member leaves.
-* Run Value Retrospectives more often than other retrospectives when new to ESE, IEEE Std. 7000. 
+* Record the results in a team-internal space. Control access to it strictly; do not forget to remove access rights when a team member leaves.
+* Run Value Retrospectives more often than other retrospectives when new to ESE, IEEE Std. 7000.
+* Add questions about impact of software if you find the ones in ESE to be incomplete. For instance, the Proactive CARE (onsider, Analyze, Review, and Evaluate) process sketched on the [ACM ethics website](https://ethics.acm.org/wp-content/uploads/2021/03/Proactive-CARE-for-Computing-Professionals.pdf) ask several more.
   
 [^1]: Is there any right place and time for them?
 

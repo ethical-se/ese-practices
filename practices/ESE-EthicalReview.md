@@ -90,7 +90,9 @@ The review can be run just like other ones, but extended with questions about va
 
 * Review the valuated user stories that served as sprint/iteration input (with business, technical, ethical values to be considered). 
 * Get all relevant stakeholders involved in the story valuation and ethics review, including end-user representatives. They know their values better than the development team. The ethical review is part of the conversation with them that Agile values call for.[^1] 
-* Be honest: Do not schedule a review if you do not believe in its value. But document your rationale for the decision not to look back. 
+* Be honest: Do not schedule a review if you do not believe in its value. But document your rationale for the decision not to look back.
+* Again, avoid checkbox ethics. 
+* Apply techniques from other processes/methods as/if needed, for instance Proactive CARE and SoDIS (see [Literature](../ESE-Literature.md) for references). <!-- link to website https://ethics.acm.org/code-of-ethics/using-the-code/ -->
 
 [^1]: To quote from the "Perfect 10" talk by Vaughn Vernon, the loudest and the longest talkers often cause harm ([read on](https://medium.com/olzzio/notes-from-the-architecture-and-modeling-learning-event-part-2-28287a7f13b0)). DO not interpret silence as agreement.
 
