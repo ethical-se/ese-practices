@@ -40,7 +40,7 @@ TODO (v2) add Responsibilty gap and how to close it (and papers cited in it):
 *  Don Gotterbarn, Marty J. Wolf, ["Closing the ai responsibility gap with the code of ethics"](https://dialnet.unirioja.es/descarga/articulo/9326110.pdf), ETHICOMP 2024 extended abstract 
 -->
 
-### Codes of Conduct and Ethics:
+### Codes of Conduct and Ethics
 
 * [ACM Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics)
 * IEEE Computer Society [Code of Ethics](https://www.computer.org/education/code-of-ethics) <!-- this is the IEEE Comp. Society one, there also is an IEEE-wide one or the SWE-specific one --> (IEEE-CS/ACM Joint Task Force on Software Engineering Ethics and Professional Practices)
