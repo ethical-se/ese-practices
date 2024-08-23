@@ -1,6 +1,6 @@
 # Ethical Software Engineering (ESE) Bibliography
 
-*News (March 14 2024):* ESE is featured in an ETHICOMP 2024 [presentation](resources/ZIO-ESEAtETHICOMPv10p.pdf) and paper "Bringing Ethical Values into Agile Software Development" (peer-reviewed [extended abstract](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf), [full paper](./resources/ESE-ETHICOMP2024FullPaperAuthorsCopyV101.pdf)). 
+*News (March 14 2024):* ESE is featured in an ETHICOMP 2024 [presentation](https://ozimmer.ch/assets/presos/ZIO-ESEAtETHICOMPv10p.pdf) and paper "Bringing Ethical Values into Agile Software Development" (peer-reviewed [extended abstract](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf), [full paper](./resources/ESE-ETHICOMP2024FullPaperAuthorsCopyV101.pdf)). 
 
 *News (August 22, 2024):* Two more related papers have been accepted for publication (EuroPLoP 2024, ISTAS 2024).
 
