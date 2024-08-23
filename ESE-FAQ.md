@@ -75,7 +75,7 @@ Note that Privacy is absent from the examples; values such as Respect and Trust 
 ### ESE and other methods/assets
 
 * How do IEEE Std. 7000 and ESE relate to the [ACM Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics) and similar codes (including those on ethical artificial intelligence)?
-  * *Answer:* IEEE Std. 7000 specifies processes, applicable for organisations, teams, projects; ESE adds practices to integrate the standards concepts into agile development. Complementarily, codes such as the ACM one focus on indiuviduals and their behavior. The standard, the codes, and ESE share common goals such as raising awareness for the existence and importance of ethical values and moral obligations in the context of systems and software engineering.
+  * *Answer:* IEEE Std. 7000 specifies processes, applicable for organisations, teams, projects; ESE adds practices to integrate the standards concepts into agile development. Complementarily, codes such as the ACM one focus on individuals and their behavior. The standard, the codes, and ESE share common goals such as raising awareness for the existence and importance of ethical values and moral obligations in the context of systems and software engineering.
 
 * How does ESE relate to the [Proactive CARE framework](https://ethics.acm.org/wp-content/uploads/2021/03/Proactive-CARE-for-Computing-Professionals.pdf), available on the ACM ethics website?
   * *Answer:* See the following table: 
