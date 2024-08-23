@@ -43,9 +43,9 @@ TODO (v2) add Responsibilty gap and how to close it (and papers cited in it):
 ### Codes of Conduct and Ethics:
 
 * [ACM Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics)
-* IEEE Computer Society [Code of Ethics](https://www.computer.org/education/code-of-ethics) <!-- this is the IEEE Comp. Society one, there also is an IEEE-wide one or the SWE-specific one --> (IEEE-CS/ACM Joint Task Force on Software Engineering Ethics and Professional Practices,  )
+* IEEE Computer Society [Code of Ethics](https://www.computer.org/education/code-of-ethics) <!-- this is the IEEE Comp. Society one, there also is an IEEE-wide one or the SWE-specific one --> (IEEE-CS/ACM Joint Task Force on Software Engineering Ethics and Professional Practices)
 * [Ethical Guidelines of the German Informatics Society](https://gi.de/ethicalguidelines) 
-* * Swiss Informatics Society, SI [Code of Ethics](https://www.swissinformatics.org/Dokumente/legal_3_en/si-code-of-ethics-2019.pdf)
+* Swiss Informatics Society, SI [Code of Ethics](https://www.swissinformatics.org/Dokumente/legal_3_en/si-code-of-ethics-2019.pdf)
 
 ## Background Information on Agile Software Development
 
