@@ -17,7 +17,7 @@ ESE includes a total of nine agile activities and artifacts, listed in alphabeti
 * (unchanged) User Story, see entry in [Agile Alliance Glossary](https://www.agilealliance.org/glossary/user-stories/)
 * (extended activity) [Value Retrospective](ESE-ValueRetrospective.md) 
 
-<!-- TODO (H) v2: arrow between product backlog and unchanged ap missing (Jan 24) -->
+<!-- TODO (v2) arrow between product backlog and unchanged ap missing (Jan 24) -->
 
 The following UML class diagram shows how these method elements relate to each other: 
 
@@ -48,4 +48,4 @@ EVR stands for [Ethical Value Requirement](/ESE-Glossary.md#evr), VBSR for [Valu
 
 ## Acknowledgment
 
-This work was funded by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+Version 1.0 of ESE was supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).

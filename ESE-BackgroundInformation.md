@@ -50,4 +50,4 @@ See [Frequently Asked Questions (FAQ)](/ESE-FAQ.md#agile-values-and-principles) 
 
 ## Acknowledgment
 
-This work was funded by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+Version 1.0 of ESE was supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).

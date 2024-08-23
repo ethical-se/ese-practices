@@ -4,7 +4,7 @@ author: NN
 date: "mm, dd, yyyy (Source: Project NN)"
 ---
 
-*Important note:* This is an early draft and preview, not ready for review and usage yet. It merely turns the section names from the standard into Markdown headings.
+*Important note:* This template merely turns the section names from the standard into Markdown headings.
 
 Artifact Template: *Value Register*
 -----------------------------------

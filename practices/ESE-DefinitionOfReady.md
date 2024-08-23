@@ -49,7 +49,7 @@ In the Lakeside Mutual example used in [Story Valuation](ESE-StoryValuation.md),
 ---
 title: "ESE: Sample DoR Checklist"
 author: Prowno Lakemutstaff
-date: "mm, dd, yyyy (Source: Project ESE)"
+date: "mm, dd, yyyy (Project ESE)"
 ---
 
 # Definition of Ready for "Custer Self Service" development at Lakeside Mutual 
@@ -83,7 +83,7 @@ date: "mm, dd, yyyy (Source: Project ESE)"
 * Consistency matters; define and agree on a DoR at the project start. 
 * Do not change the DoR during the project. If you do, it might yield false data and lose its value.
 * Do not over-analyze. This would be anti-agile.
-* Do no cheat. Doing the right things and doing them right is a maxim that applies here (and elsewhere).
+* Do no cheat. This would be unethical. Doing the right things and doing them right is a maxim that applies here (and elsewhere). <!-- redundant with DoD: Do not fall for the "checkbox ethics" antipattern. -->
 * If you are not sure whether the DoR is met and decide to go ahead, document your doubts and be ready to go back if needed.
 
 
@@ -112,7 +112,7 @@ In alphabetical order:
 ```yaml
 title: "ESE artifact: Ethics-Enabled DoR"
 author: Olaf Zimmermann (ZIO)
-date: "11, 13, 2023 (Source: Project ESE)"
-copyright: The author, 2023 (unless noted otherwise). All rights reserved.
+date: "11, 13, 2023 (Version 1.0)"
+copyright: The author, 2023-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

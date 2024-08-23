@@ -70,6 +70,9 @@ IEEE Std. 7000 defines: "Group containing one core value and several values inst
 
 In ESE, value clusters can be documented in several ways, for instance as part of Value Trees (see example in Story Valuation). ESE also provides Markdown templates for them.
 
+### Value Demonstrator
+IEEE Std. 7000 defines: "Potential manifestation of a core value, which is either instrumental to the core value or undermines it.". <!-- Value Demonstrator (aka WQ in DE, see IS paper) -->
+
 ### Value Register
 
 IEEE Std. 7000 defines: "An information store created for transparency and traceability reasons, which contains data and decisions gained in ethical values elicitation and prioritization and traceability into ethical value requirements." 
@@ -96,4 +99,4 @@ See "Ethically Aligned Design: First Edition Glossary" available [online](https:
 
 ## Acknowledgment
 
-This work was funded by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+Version 1.0 of ESE was supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).

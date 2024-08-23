@@ -8,8 +8,8 @@ Please refer to [CONTRIBUTING.md](CONTRIBUTING.md).
 ```yaml
 title: "ESE: Contributing"
 author: Olaf Zimmermann (ZIO)
-date: "11, 13, 2023 (Source: Project ESE, supported by the Hasler-Foundation)"
-copyright: Olaf Zimmermann, 2023 (unless noted otherwise). All rights reserved.
+date: "11, 13, 2023 (Version 1.0, supported by the Hasler-Foundation)"
+copyright: Olaf Zimmermann, 2023-2024 (unless noted otherwise). All rights reserved.
 ```
 
 ### License

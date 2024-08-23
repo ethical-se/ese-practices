@@ -20,7 +20,7 @@ We are happy to welcome new contributors who want to help improve our collection
 title: CONTRIBUTING.md
 owner: Olaf Zimmermann (ZIO)
 date: "11, 08, 2023"
-copyright: Olaf Zimmermann, 2023 (unless noted otherwise). All rights reserved.
+copyright: Olaf Zimmermann, 2023-2024 (unless noted otherwise). All rights reserved.
 ```
 
 ### License

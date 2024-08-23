@@ -10,6 +10,8 @@ Activity: *Story Valuation*
 ---------------------------
 also known as Value-Enhanced User Story Elicitation, People-Society-Planet INVESTing 
 
+<!-- TODO (v2) retrofit changes on ETHICOMP slides, process I7K comments on EVRs (?) -->
+
 *Quick links:* (1) [Goal and Purpose](#goal-and-purpose) (2) [Notations](#notations) (3) [Techniques](#valuation-techniques) (4) [Usage](#usage) (5) [Application Hints](#hints-and-pitfalls-to-avoid) (6) [Other Practices](/practices/) (7) [ESE Home](/README.md)
 
 ### Context
@@ -27,7 +29,7 @@ Ethical Software Engineering (ESE), i.e., this project/repository, proposes to e
 
 ### Goal and Purpose 
 
-> *As a responsible software engineer, I want to craft working software that delivers value to users and other stakeholders while not harming any individuals, society and/or the planet. I also want to identify goal conflicts so that adequate tradeoffs can be found.* 
+> *As a responsible software engineer, I want to craft working software that delivers value to users and other stakeholders while not harming any individuals, society and/or the planet. I want to identify goal conflicts so that adequate tradeoffs can be found.* 
 
 Not doing any of the activities in ESE is possible, but may cause harm in the long run.[^3] 
 
@@ -57,7 +59,7 @@ The following UML object instance diagram (aka Value Tree) illustrates the relat
 
 ![ESE/IEEE 7000 Value Tree](/images/ESE-ValueObjectTree.png)
 
-<!-- TODO (H) comment on L1 value vs. Value Demonstator (see ISD paper notes) -->
+<!-- TODO (v2) comment on L1 value vs. Value Demonstator (see ISD paper notes) -->
 
 Note that the words [benefits](/ESE-Glossary.md#benefit) and [harms](/ESE-Glossary.md#harm) in the figure do not imply the usage, or sole usage, of any particular ethical theory.  
 
@@ -106,11 +108,13 @@ Collectively, the value epics, weightings, narratives comprise the Value Registe
 ***Disclaimer:*** These proposals have not been fully validated yet; please view them as drafts, serving as invitations to a continued method engineering discussion. [Examples](#examples) follow.
 
 #### Ethical Value Requirement (EVRs)
-As an important type of non-functional requirements, [EVRs](/ESE-Glossary.md#evr) can be written up either in free form or in a structured way. IEEE Std. 7000 specifies how to document Values and EVRs in a rather elaborate form; or details, please refer to pages 40 to 42 in Clause 8 and then pages 44 to 46 in Clause 9 of the standard. 
+As an important type of non-functional requirements, [EVRs](/ESE-Glossary.md#evr) can be written up either in free form or in a structured way. IEEE Std. 7000 specifies how to document Values and EVRs in a rather elaborate form; or details, please refer to pages 40 to 42 in Clause 8 (Values) and then pages 44 to 46 (EVRs) in Clause 9 of the standard. 
 
 <!-- IEEE Std. 7000: 
 "NOTE 1—EVRs can be expressed in formal requirement statements, use cases, user stories, scenarios, or other forms." 
-"NOTE 2—EVRs can be used to translate the prioritized core values into the system’s value dispositions." 
+"NOTE 2—EVRs can be used to translate the prioritized core values into the system’s value dispositions."
+
+"socio-technology statements that describe possible risk treatment options that may promote and protect the prioritized core values and realize the value demonstrators. Treatment options are technical, organizational, or social." [...] "Record each EVR with a unique reference number, its associated risks, prioritized core values, and related assumptions and constraints."
 -->
 
 IEEE Std. 7000 gives an example of an EVR in the full-body scanner SOI in B.2: "The system shall protect the privacy of body images of scanned passengers.". The standard talks about "risk treatment options" (which are technical, organizational, social) and "value demonstrator realization". In ESE, we see these information elements at the interface/intersection between analysis and design.  
@@ -131,7 +135,7 @@ Alternatively, the value-enhanced user story may also refer to Value Register en
  
 #### Value-Based System Requirement (VBSRs)
 
-a) VBSRs may adopt the Quality Attribute Scenario (QAS) table format from the SEI ([introduction](https://www.cs.unb.ca/~wdu/cs6075w10/sa2.htm) with examples, [online article](https://www.codementor.io/@antoniopfesilva/how-to-write-meaningful-quality-attributes-for-software-development-ez8y90wyo) with more examples, [arc42 Quality Model](https://quality.arc42.org) with even more examples): 
+a) VBSRs may adopt the Quality Attribute Scenario (QAS) table format from the SEI ([introduction](https://socadk.github.io/design-practice-repository/artifact-templates/DPR-QualityAttributeScenario.html) with examples, [online article](https://www.codementor.io/@antoniopfesilva/how-to-write-meaningful-quality-attributes-for-software-development-ez8y90wyo) with more examples, [arc42 Quality Model](https://quality.arc42.org) with even more examples): 
 
 | Scenario Element | ESE Usage of Element |
 |-|-|
@@ -168,7 +172,7 @@ The valuation techniques proposed in ESE are:
 
 Any combinations of these three techniques are eligible when following Agile methods. For instance, the [Product Vision](https://www.scrum.org/resources/what-product-vision) in Scrum may serve as a natural starting point for valuation activities, possibly using Question-Based Elicitation. Other techniques can be used and combined with the proposed three as well.
 
-The valuation results are captured with the help of the above [notations](#notations).
+The valuation results are captured with the help of the above [notations](#notations). Please note that all three techniques focus on values at present; value requirements are only touched upon. For the time being, please refer to Clause 9 of IEEE Std. 7000 for more detailed EVR and VBSR elicitation and prioritization advice.
 
 #### Valuation Technique 0: Question-Based Value Elicitation (Goals and Vision First)
 
@@ -386,7 +390,7 @@ a H(igh) priority concern of conference participants,
 
 ***Note:*** *This version of ESE does not provide any sample output of business-as-usual software engineering activities such as architecture design and implementation. That said, sample [Architectural Decision Records (ADRs)](https://medium.com/olzzio/how-to-review-architectural-decision-records-adrs-and-how-not-to-2707652db196) are featured in the example of an Ethical Review. See [Future Work](/ESE-FutureWork.md) for related method engineering ideas and plans.*
 
-<!-- TODO (v2) elaborate: What's next? Consequences (good and bad)? More discussions with stakeholders, less business growth but "gutes Gewissen". Some more work too. But less risk. -->
+<!-- TODO (v2) elaborate: What's next? Consequences (good and bad)? More discussions with stakeholders, less business growth but "gutes Gewissen". Some more work too. But less risk. See JEDi user stories and VDAD steps 4 to 7. -->
 
 The section on [notations](#notations) proposes the templates for this step that are featured in the examples.
 
@@ -422,7 +426,7 @@ Final advice is:
 * Let the value-assessed stories (elicited in this activity) serve as input to value-based design decision-making. Capture the *rationale* for the decisions and include EVRs and VBSRs in the resulting [decision records](https://medium.com/olzzio/from-architectural-decisions-to-design-decisions-f05f6d57032b).
 * Validate and verify the *realization* of value-assessed stories in [Ethics Reviews](ESE-EthicalReview.md).
 
-<!-- TODO (v2) include a Stakeholder Type mind map and give advice, map to roles in standard: ubtypes/roles/personas, e.g. occasional and regular end user, differing values and usability needs -->
+<!-- TODO (v2) include a Stakeholder Type mind map and give advice, map to roles in standard: types/roles/personas, e.g. occasional and regular end user, differing values and usability needs -->
 
 ### Related Content
 
@@ -437,7 +441,7 @@ ESE does not contain any design practices at present; the [Design Practice Repos
 
 ### More Information 
 
-Ethical values and ways to handle them are explained here: 
+Ethical values <!-- and ways to handle them --> are covered in the following publication and online resources (selection): 
 
 * The article ["Human Values as the Basis for Sustainable Information System Design"](https://research.wu.ac.at/ws/portalfiles/portal/19837176/Human+Values+as+the+Basis+for+Stustainable+Information+Systems+Design+%28Pre-print%29.pdf) has many more examples of values.
 * IEEE Std. 7000 and literature on "Material Value Ethics" may help with prioritization: 
@@ -445,6 +449,8 @@ Ethical values and ways to handle them are explained here:
   * And ["Value-Sensitive Design"](https://mitpress.mit.edu/9780262039536/value-sensitive-design/) compiles 13 human values in Table 2.1 on page 28; Table 3.1 on pages 61 to 64 summarizes 17 value-sensitive design methods.
 * A 2019 conference presentation by Jennifer Riggins called ["How (and Why) to Factor Tech Ethics into Your Sprint"](https://www.infoq.com/presentations/tech-ethics-sprint/) and her article ["Tech Ethics New Year’s Resolution: Don’t Build Software You Will Regret"](https://thenewstack.io/tech-ethics-new-years-resolution-dont-build-software-you-will-regret/) ask valuation questions, effectively forestalling/antedating our three valuation techniques, for instance "What is the worst possible use case for this code?" Other questions concern connectivity and data transfer as well as data storage and lifetime.
 * Annex B of IEEE Std. 7000 covers value concepts, starting from philosophical foundations in B1; B2 presents an example and B.4 covers value ranking. Annex C is about ethical theories applied to ethical value elicitation, for instance, utilitarian ethics, virtue ethics, and duty ethics.
+* The [Proctive Consider, Analyze, Review, Evaluate (CARE)](https://ethics.acm.org/wp-content/uploads/2021/03/Proactive-CARE-for-Computing-Professionals.pdf) framework and [Software Development Impact Statements (SoDIS)](https://doi.org/10.17705/1CAIS.01540) as well as the [Consequence Scanning](https://doteveryone.org.uk/project/consequence-scanning/) practice also propose an active, "push" approach to knowledge sharing (just like ESE). Some of the questions raised in these publications and practices overlap with the ones in ESE; others are complementary.  
+<!-- TODO (v2) list JEDi here when public -->
   
 More information about the INVEST principles/criteria is available in many places: 
 
@@ -467,7 +473,7 @@ The [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/) is 
 ```yaml
 title: "ESE activity: Story Valuation"
 author: Olaf Zimmermann (ZIO)
-date: "11, 20, 2023 (Source: Project ESE)"
-copyright: The author, 2023 (unless noted otherwise). All rights reserved.
+date: "11, 20, 2023 (Version 1.0)"
+copyright: The author, 2023-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
