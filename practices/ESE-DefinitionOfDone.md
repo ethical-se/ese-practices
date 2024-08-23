@@ -52,7 +52,7 @@ In the Lakeside Mutual example used in [Story Valuation](ESE-StoryValuation.md),
 ---
 title: "ESE: Sample DoD Checklist"
 author: Prowno Lakemutstaff
-date: "mm, dd, yyyy (Source: Project ESE)"
+date: "mm, dd, yyyy (Project ESE)"
 ---
 
 # Definition of Done for "Custer Self Service" development at Lakeside Mutual 
@@ -121,7 +121,7 @@ The Design Practice Repository/Reference (DPR) on [GitHub](https://github.com/so
 ```yaml
 title: "ESE artifact: Ethics-Enabled DoD"
 author: Olaf Zimmermann (ZIO)
-date: "11, 13, 2023 (Source: Project ESE)"
-copyright: The author, 2023 (unless noted otherwise). All rights reserved.
+date: "11, 13, 2023 (Version 1.0)"
+copyright: The author, 2023-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

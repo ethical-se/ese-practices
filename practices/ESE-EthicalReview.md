@@ -123,7 +123,7 @@ Miscellaneous:
 ```yaml
 title: "ESE artifact: Ethics Review Meeting/Report"
 author: Olaf Zimmermann (ZIO)
-date: "11, 20, 2023 (Source: Project ESE)"
-copyright: The author, 2023 (unless noted otherwise). All rights reserved.
+date: "11, 20, 2023 (Version 1.0)"
+copyright: The author, 2023-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

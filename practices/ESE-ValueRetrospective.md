@@ -100,7 +100,7 @@ Note that this retrospective primarily focuses on the development team and how i
 * Reserve enough time for the ethics- and value-related part; run it as a separate meeting if other topics (tools, practices, etc.) take too much time and attention.
 * Record the results in a team-internal space. Control access to it strictly; do not forget to remove access rights when a team member leaves.
 * Run Value Retrospectives more often than other retrospectives when new to ESE, IEEE Std. 7000.
-* Add questions about impact of software if you find the ones in ESE to be incomplete. For instance, the Proactive CARE (onsider, Analyze, Review, and Evaluate) process sketched on the [ACM ethics website](https://ethics.acm.org/wp-content/uploads/2021/03/Proactive-CARE-for-Computing-Professionals.pdf) ask several more.
+* Add questions about impact of software if you find the ones in ESE to be incomplete. For instance, the Proactive CARE (Consider, Analyze, Review, and Evaluate) process sketched on the [ACM ethics website](https://ethics.acm.org/wp-content/uploads/2021/03/Proactive-CARE-for-Computing-Professionals.pdf) and the [Consequence Scanning](https://doteveryone.org.uk/project/consequence-scanning/) practice ask several more.
   
 [^1]: Is there any right place and time for them?
 
@@ -142,8 +142,8 @@ The Design Practice Repository/Reference (DPR) on [GitHub](https://github.com/so
 ```yaml
 title: "ESE activity: Ethics-Enabled Retrospective"
 author: Olaf Zimmermann (ZIO)
-date: "11, 13, 2023 (Source: Project ESE)"
-copyright: The author, 2023 (unless noted otherwise). All rights reserved.
+date: "11, 13, 2023 (Version 1.0)"
+copyright: The author, 2023-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
 

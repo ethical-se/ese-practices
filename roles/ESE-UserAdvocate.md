@@ -46,7 +46,7 @@ See Section 6.2.5 on pages 33 to 34 in IEEE Std. 7000.
 ```yaml
 title: "ESE: Role User Advocate"
 author: Olaf Zimmermann (ZIO)
-date: "11, 11, 2023 (Source: Project ESE)"
-copyright: The author, 2023 (unless noted otherwise). All rights reserved.
+date: "11, 11, 2023 (Version 1.0)"
+copyright: The author, 2023-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

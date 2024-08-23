@@ -49,7 +49,7 @@ In the Lakeside Mutual example used in [Story Valuation](ESE-StoryValuation.md),
 ---
 title: "ESE: Sample DoR Checklist"
 author: Prowno Lakemutstaff
-date: "mm, dd, yyyy (Source: Project ESE)"
+date: "mm, dd, yyyy (Project ESE)"
 ---
 
 # Definition of Ready for "Custer Self Service" development at Lakeside Mutual 
@@ -112,7 +112,7 @@ In alphabetical order:
 ```yaml
 title: "ESE artifact: Ethics-Enabled DoR"
 author: Olaf Zimmermann (ZIO)
-date: "11, 13, 2023 (Source: Project ESE)"
-copyright: The author, 2023 (unless noted otherwise). All rights reserved.
+date: "11, 13, 2023 (Version 1.0)"
+copyright: The author, 2023-2024 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```
