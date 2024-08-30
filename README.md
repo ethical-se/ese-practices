@@ -7,6 +7,11 @@
 * Peer-reviewed [extended abstract](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf) (PDF, 3 pages)
 * Full proceedings [paper](resources/ESE-ETHICOMP2024FullPaperAuthorsCopyV101.pdf) (PDF, 10 pages)
 
+*Sibling repository:* [Value-Driven Analysis and Design](https://github.com/ethical-se/value-driven-analysis-and-design):
+
+* Seven-step process 
+* Two additional practices, Stakeholder Mapping and Value-Impact Mapping
+
 ## Overview and Orientation
 
 *TL;DR:* [IEEE Std. 7000](https://ieeexplore.ieee.org/document/9536679) meets Agile practices
