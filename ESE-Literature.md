@@ -1,16 +1,15 @@
 # Ethical Software Engineering (ESE) Bibliography
 
+*News (December 19, 2024)*: ESE is featured in two more publications:
+
+* Kapferer, S.; Stocker, M.; Zimmermann, O.: ["Towards responsible software engineering: combining value-based processes, agile practices, and green metering"](https://ieeexplore.ieee.org/document/10732097), Proc. of ISTAS 2024, IEEE ([PDF](https://ethical-se.github.io/value-driven-analysis-and-design/assets/papers/TowardsResponsibleSoftwareEngineering-ISTAS2024.pdf)).
+* Kapferer, S.; Zimmermann, O.; Stocker, M.: ["Value-Driven Analysis and Design: Applying Domain-Driven Practices in Ethical Software Engineering"](https://dl.acm.org/doi/10.1145/3698322.3698332), Proc. of EuroPLoP 2024, ACM ([PDF](https://ethical-se.github.io/value-driven-analysis-and-design/assets/papers/ValueDrivenAnalysisAndDesign-VDAD-EuroPLoP2024.pdf)).
+  
+We also added additional related work to this literature list, by Wohlrab et al. and by Meyer (see below).
+
 *News (March 14 2024):* ESE is featured in an ETHICOMP 2024 [presentation](https://ozimmer.ch/assets/presos/ZIO-ESEAtETHICOMPv10p.pdf) and paper "Bringing Ethical Values into Agile Software Development" (peer-reviewed [extended abstract](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf), [full paper](./resources/ESE-ETHICOMP2024FullPaperAuthorsCopyV101.pdf)). 
 
-*News (August 22, 2024):* Two more related papers have been accepted for publication (EuroPLoP 2024, ISTAS 2024).
-
 ## Background Information on Tech. Ethics 
-
-<!-- TODO (v2) add latest Spiekerman book:
-  title = {{Value-Based Engineering}},
-  title = {{A Guide to Building Ethical Technology for Humanity}},
-  author = {Sarah Spiekermann},
--->
 
 *Note:* Access to [IEEE Std. 7000](https://standards.ieee.org/ieee/24748-7000/11098/) is free after registration for IEEE Xplore (click on "Access via Subscription").
 
@@ -23,8 +22,7 @@
 * ["Value-Sensitive Design"](https://mitpress.mit.edu/9780262039536/value-sensitive-design/), Batya Friedman und David Hendry, MIT Press, 2019.
 * A call for Software ethics ["The Five Principles of Software Ethics"](https://thenewstack.io/five-principles-software-ethics/)
 * Context, Consequences, Contribution (3C) model: ["A model to help tech companies make responsible technology a reality"](https://medium.com/doteveryone/a-model-to-help-tech-companies-make-responsible-technology-a-reality-837c50713c65)
-* Stefan Kapferer, Mirko Stocker, Olaf Zimmermann, "Towards responsible software engineering:
-combining value-based processes, agile practices, and green metering", Proceedings of IEEE ISTAS 2024 (to appear)
+* Rebekka Wohlrab, Marc Herrmann, Christopher Lazik, Marvin Wyrich, Ines Nunes, Kurt Schneider, Lucas Gren, and Robert Heinrich: ["Supporting value-aware software engineering through traceability and value tactics"](https://rebekkaa.github.io/files/Wohlrab2024_PROFES.pdf), Prof. of PROFES 2024, Springer LNCS
 * Olaf Zimmermann, Mirko Stocker, Stefan Kapferer, "Bringing Ethical Values into Agile Software Development", Proc. of ETHICOMP 2024 ([extended abstract (peer-reviewed)](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf), [full paper in proceedings (pages 87 to 98)](https://dialnet.unirioja.es/descarga/libro/977710.pdf))
 
 ### Approaches to Manage and Mitigate Risk and Impact
@@ -35,10 +33,6 @@ combining value-based processes, agile practices, and green metering", Proceedin
   * Gotterbarn, D., Rogerson, S., "Responsible Risk Assessment with Software Development: Creating the Software Development Impact Statement". Communications of the Association for Information Systems, 15, 2005 ([PDF download](https://doi.org/10.17705/1CAIS.01540))
 * Positive responsibility 
   * Ladd, John. 1991. "Bhopal: An Essay on Moral Responsibility and Civic Virtue.", Journal of Social Philosophy 32: 73–91, 1991
-<!-- 
-TODO (v2) add Responsibilty gap and how to close it (and papers cited in it):
-*  Don Gotterbarn, Marty J. Wolf, ["Closing the ai responsibility gap with the code of ethics"](https://dialnet.unirioja.es/descarga/articulo/9326110.pdf), ETHICOMP 2024 extended abstract 
--->
 
 ### Codes of Conduct and Ethics
 
@@ -59,22 +53,14 @@ TODO (v2) add Responsibilty gap and how to close it (and papers cited in it):
 
 ## Related Work and Tools
 
-<!-- 
-
-TODO (v2) bring links back when ok or replace with new ones:
-
-<https://ethicalos.org/> has tools (in narrow sense of the word) and checklists:
-
-* <https://ethicalos.org/wp-content/uploads/2018/08/Ethical-OS-Toolkit-2.pdf>
-* <https://ethicalos.org/wp-content/uploads/2018/08/EthicalOS_Check-List_080618.pdf>
-
-The site and its tools are in the process of moving to <https://www.iftf.org/projects/a-playbook-for-ethical-tech-governance/>. 
-
--->
-
 This paper (in German) identifies related work, including an Ethics Canvas Manual, a Responsible Design Process, and an EDAP Schema (EDAP is short for "Ethische Deliberation für agile Prozesse", which translates to "ethical deliberation for agile processes").
 
 * ["Integration moralischer Anforderungen in den agilen Entwicklungsprozess KI-basierter Anwendungen am Beispiel von Scrum"](https://link.springer.com/article/10.1365/s40702-022-00848-x#Sec2)
+
+Bertrand Meyer bases ethics on the rules of logical reasoning and proposes three concrete principles:
+goodness, truth, and fairness as well as two meta-principles: restraint and importance.
+
+* ["Rational Ethics"](https://link.springer.com/content/pdf/10.1007/978-3-319-55735-9_5.pdf), Chapter 5 in Informatics in the Future, H. Werthner, F. van Harmelen (eds.), Springer 2017, DOI 10.1007/978-3-319-55735-9_5.
 
 ## Acknowledgment
 
