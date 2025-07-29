@@ -30,20 +30,20 @@ The ETHICOMP 2024 presentation is [available for download](https://ozimmer.ch/as
 * [Ethical Guidelines of the German Informatics Society](https://gi.de/ethicalguidelines) 
 * Swiss Informatics Society, SI [Code of Ethics](https://www.swissinformatics.org/Dokumente/legal_3_en/si-code-of-ethics-2019.pdf)
 
-## Tech. Ethics and Computers in General
-
-* Context, Consequences, Contribution (3C) model: ["A model to help tech companies make responsible technology a reality"](https://medium.com/doteveryone/a-model-to-help-tech-companies-make-responsible-technology-a-reality-837c50713c65)
-* A call for software ethics by Steven Willmott, reported on The New Stack by Mark Boyd: ["The Five Principles of Software Ethics"](https://thenewstack.io/five-principles-software-ethics/). The five rather technical principles are: Continuous Improvement, Graceful Degradation, Radical Distribution, Components as well as Solutions, Fearless Competence.
-* Bertrand Meyer bases ethics on the rules of logical reasoning and proposes three concrete principles: goodness, truth, and fairness as well as two meta-principles: restraint and importance in  ["Rational Ethics"](https://link.springer.com/content/pdf/10.1007/978-3-319-55735-9_5.pdf), Chapter 5 in Informatics in the Future, H. Werthner, F. van Harmelen (eds.), Springer 2017, DOI 10.1007/978-3-319-55735-9_5.
-* The concept of positive responsibility is proposed in Ladd, John. 1991. "Bhopal: An Essay on Moral Responsibility and Civic Virtue.", Journal of Social Philosophy 32: 73–91, 1991
-* Don Gotterbarn, Marty J. Wolf, ["Closing the AI responsibility gap with the code of ethics"](https://dialnet.unirioja.es/descarga/articulo/9326110.pdf), ETHICOMP 2024 extended abstract
-  
-## Background Information on Agile Software Development
+### Background Information on Agile Software Development
 
 * [Agile Manifesto](https://agilemanifesto.org/)
 * Homepage of the [Agile Alliance](https://www.agilealliance.org/) that provides the Agile Manifesto, a "Subway Map to Agile Practices", an glossary, and other resources:
   * Agile Coaching Ethics, <https://www.agilealliance.org/agilecoachingethics/#code>
 * [Design Practice Repository and Reference (DPR)](https://socadk.github.io/design-practice-repository/) for agile architecting, API design, and beyond (since 2020)
+
+## Tech. Ethics and Computers in General
+
+* Context, Consequences, Contribution (3C) model: ["A model to help tech companies make responsible technology a reality"](https://medium.com/doteveryone/a-model-to-help-tech-companies-make-responsible-technology-a-reality-837c50713c65)
+* A call for software ethics by Steven Willmott, reported on The New Stack by Mark Boyd: ["The Five Principles of Software Ethics"](https://thenewstack.io/five-principles-software-ethics/). The five rather technical principles are: Continuous Improvement, Graceful Degradation, Radical Distribution, Components as well as Solutions, Fearless Competence.
+* Bertrand Meyer bases ethics on the rules of logical reasoning and proposes three concrete principles: goodness, truth, and fairness as well as two meta-principles: restraint and importance in ["Rational Ethics"](https://link.springer.com/content/pdf/10.1007/978-3-319-55735-9_5.pdf), Chapter 5 in Informatics in the Future, H. Werthner, F. van Harmelen (eds.), Springer 2017, DOI 10.1007/978-3-319-55735-9_5.
+* The concept of positive responsibility is proposed in Ladd, John. 1991. "Bhopal: An Essay on Moral Responsibility and Civic Virtue.", Journal of Social Philosophy 32: 73–91, 1991
+* Don Gotterbarn, Marty J. Wolf, ["Closing the AI responsibility gap with the code of ethics"](https://dialnet.unirioja.es/descarga/articulo/9326110.pdf), ETHICOMP 2024 extended abstract
 
 ## Related Academic Work and Tools
 

@@ -2,7 +2,7 @@
 
 ESE is maintenance mode. If method research and development continue at some point, possible future work includes:
 
-* Adopt and extend ESE for responsible AI.
+* Adopt and extend ESE for responsible AI
 * Provide more application/adoption [examples](/examples/)
 * Validate all method content further (see [experimentation](/experimentation/) page)
 * Improve existing or add new notations, e.g. Value Tree (already featured in an example), Value Canvas or Value Mapping <!-- [O] QOC+, bipartite graph? --> 

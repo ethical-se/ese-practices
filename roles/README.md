@@ -10,6 +10,8 @@
 
 IEEE Std. 7000 also has: Top Management Champion, System Expert, Risk Lead, Moderator, Transparency Manager.
 
+## User Stories
+
 [Value-Driven Analysis and Design (VDAD)](https://ethical-se.github.io/value-driven-analysis-and-design/user-stories) presents six user stories that motivate ESE. It uses the roles Product Manager (or Owner), DevOps Team Member and Value Lead. Three of these stories are:
 
 > "As a responsible product manager of a software-intensive system,  

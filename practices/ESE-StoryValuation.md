@@ -47,7 +47,7 @@ The following figure shows which notations and techniques are available:
   
 ![ESE Story Valuation Structure](/images/ESE-SVStructure.png)
 
-In IEEE Std. 7000 terms, story valuation populates the [Value Register](/ESE-Glossary.md#Value-Register) and yields [Ethical Value Requirements (EVRs)](/ESE-Glossary.md#EVR). Optionally (in ESE), the EVRs can be refined into [Value-Based System Requirements (VBSRs)](/ESE-Glossary.md#vbsr) as well. 
+In IEEE Std. 7000 terms, Story Valuation populates the [Value Register](/ESE-Glossary.md#Value-Register) and yields [Ethical Value Requirements (EVRs)](/ESE-Glossary.md#EVR). Optionally (in ESE), the EVRs can be refined into [Value-Based System Requirements (VBSRs)](/ESE-Glossary.md#vbsr) as well. 
 The following UML object instance diagram (aka Value Tree) illustrates these relationships with EVR, VBSR and Design Element (DE) examples: 
 
 ![ESE/IEEE 7000 Value Tree](/images/ESE-ValueObjectTree.png)
