@@ -8,6 +8,7 @@ What do the various acronyms mean?
 
 |TLA | Meaning | Definition (IEEE Std. 7000 unless noted otherwise) | 
 |-|-----------------------------------------------------------------|-|
+|ADR| Architecture Decision Record | Preserved design rationale, see [this blog post](https://ozimmer.ch/practices/2020/04/27/ArchitectureDecisionMaking.html) | 
 |BAT|Best Available Technique|See IEEE Std. 7000|
 |CEP| Context Exploration Process | "The ConOps and Context Exploration Process identifies stakeholders involved with the system throughout its life cycle and chooses representatives. It also analyzes control over the envisaged SOI. It gathers relevant information on the social, legal, and environmental feasibility of the SOI." |
 |CoC|Code of Conduct |e.g., ["ACM Code of Ethics and Professional Conduct"](https://www.acm.org/code-of-ethics), IEEE/IEEE CS, GI, SI |
@@ -24,7 +25,10 @@ What do the various acronyms mean?
 |VBSR| Value-Based System Requirement | "System requirement that is traceable from ethical value requirements, value clusters, and core values."|
 |VBSE| Value-Based Systems Engineering ||
 |VSD| Value-Sensitive Design |Book by Batya Friedman and David G. Hendry|
-|tbc| to be continued | There also are TODO markers (in Markdown comments) |
+
+<!-- TODO (v2) update glossary:
+|tbc| to be continued | There also are TODO markers (in Markdown comments) | 
+-->
 
 All citations are from IEEE Std. 7000 unless noted otherwise.
 
@@ -96,7 +100,8 @@ See "Ethically Aligned Design: First Edition Glossary" available [online](https:
 * [Bibliography](/ESE-Literature.md)
 * [Frequently Asked Questions](/ESE-FAQ.md)
 
-
+<!--
 ## Acknowledgment
 
 Version 1.0 of ESE was supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+-->

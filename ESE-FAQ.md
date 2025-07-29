@@ -74,8 +74,11 @@ Note that Privacy is absent from the examples; values such as Respect and Trust 
 
 ### ESE and other methods/assets
 
+* How do ESE (this project and repository) and [VDAD](https://github.com/ethical-se/value-driven-analysis-and-design) relate to each other? 
+  *  *Answer:* They complement each other, as explained in the paper "Towards responsible software engineering: combining value-based processes, agile practices, and green metering" ([PDF](https://ethical-se.github.io/value-driven-analysis-and-design/assets/papers/TowardsResponsibleSoftwareEngineering-ISTAS2024.pdf)). VDAD Steps 3 and 4 focus on values, value requirements and conflicts; so does the Story Valuation practice in ESE.    
+
 * How do IEEE Std. 7000 and ESE relate to the [ACM Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics) and similar codes (including those on ethical artificial intelligence)?
-  * *Answer:* IEEE Std. 7000 specifies processes, applicable for organisations, teams, projects; ESE adds practices to integrate the standards concepts into agile development. Complementarily, codes such as the ACM one focus on individuals and their behavior. The standard, the codes, and ESE share common goals such as raising awareness for the existence and importance of ethical values and moral obligations in the context of systems and software engineering.
+  * *Answer:* IEEE Std. 7000 specifies processes, applicable for organizations, teams, projects; ESE adds practices to integrate the standards concepts into agile development. Complementarily, codes such as the ACM one focus on individuals and their behavior. The standard, the codes, and ESE share common goals such as raising awareness for the existence and importance of ethical values and moral obligations in the context of systems and software engineering.
 
 * How does ESE relate to the [Proactive CARE framework](https://ethics.acm.org/wp-content/uploads/2021/03/Proactive-CARE-for-Computing-Professionals.pdf), available on the ACM ethics website?
   * *Answer:* See the following table: 
@@ -99,6 +102,8 @@ Note that Privacy is absent from the examples; values such as Respect and Trust 
 7. Section 11 might pick up the risk-oriented approach of IEEE Std. 7000.
 8. The glossary refers to the ESE glossary and also explains the solution-specific values.
 
+* Have data ethics been specified?  
+  * *Answer:* Check out "Data Ethics: Code of Ethics for Data-Based Value Creation" <https://data-innovation.org/data-ethics/> by doi, a Thun-based [data innovation alliance](https://data-innovation.org/about-us/). Four documents (basics, recommendations, implementation, context) and a flow-oriented overview graphic are available for download.
 
 ### Misc
 
@@ -106,16 +111,10 @@ Note that Privacy is absent from the examples; values such as Respect and Trust 
   * *Answer:* See the [Glossary](/ESE-Glossary.md#overview).
 
 * What is available in ESE (this repository)? 
-  * *Answer:* ESE describes two new [practices](/practices/), Story Valuation and Ethics Review, and extends three existing ones, Definition of Ready, Definition of Done, and Retrospective. It also features [roles](/roles/) from IEEE Std. 7000. 
+  * *Answer:* ESE describes two new [practices](/practices/), Story Valuation and Ethics Review, and extends three existing ones, Definition of Ready, Definition of Done, and Retrospective. It also features [roles](/roles/) from IEEE Std. 7000 and supports the user stories from VDAD. 
 
-* How is ESE organized? 
-  * *Answer:* See the following figure:
-![ESE Building Blocks](/images/ESE-BuildingBlocks.png)
-
-* What does the Story Valuation practice contain? 
-  * *Answer:* See the following figure:
-  
-![ESE Story Valuation Structure](/images/ESE-SVStructure.png)
+* Where can I learn more about ESE? 
+  * *Answer:* In the paper "Bringing Ethical Values into Agile Software Development" (peer-reviewed [extended abstract](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf), [full paper](./resources/ESE-ETHICOMP2024FullPaperAuthorsCopyV101.pdf)).
   
 * Is there a "minimum viable adoption" of ESE and/or a lightweight way of applying IEEE Std. 7000? 
   * *Answer:* Story Valuation and Ethics Review are the two essential ESE practices. You can view existing practices and notations as a valid means of capturing value-related information; for instance, a Business Model Canvas or DDD context map annotated with some additional text may serve as a mini-ConOps. Use of VBSEs from IEEE Std. 7000 is optional in ESE.
@@ -132,9 +131,11 @@ Note that Privacy is absent from the examples; values such as Respect and Trust 
 * What is in the method engineering backlog?
   * *Answer:* Our work-in-progress and [Future Work](/ESE-FutureWork.md) includes additional application examples, (possibly) showing yet more notations. We also plan to provide more elaborate Markdown templates for ESE and IEEE Std. 7000 artifacts once/when the method content has matured and reached a steady state.
 
-* How can I contribute, for instance by reporting a question missing here?
-  * *Answer:* See [Contributions](/contributing/) folder and readme.
+* How can I contribute, for instance by asking a question missing?
+  * *Answer:* See [Contributions](/contributing/) folder.
 
+<!--
 ## Acknowledgment
 
 Version 1.0 of ESE was supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+-->
