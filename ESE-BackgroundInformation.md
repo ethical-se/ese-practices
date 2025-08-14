@@ -51,7 +51,7 @@ The Scrum concept of [Product Vision](https://www.scrum.org/resources/what-produ
 
 [^1]: Note that the term "operations" in ConOps refers to the functioning of an application or system here; it is not to be confused with the Ops in DevOps and systems/service management (superset relation). IEEE Std. 7000 defines ConOps as "verbal and/or graphic statement, in broad outline, of an organization’s assumptions or intent in regard to an operation or series of operations" and then "The concept is designed to give an overall picture of the organization operations". ConOps has its roots in ISO/IEC/IEEE15288:2015.
 
-[^2]: Several existing software engineering methods and tools emphasize context, for instance, the Domain-Driven Design tool [Context Mapper](https://contextmapper.org/) and architecture design methods such as those compiled in [Design Practice Repository/Reference (DPR)](https://socadk.github.io/design-practice-repository/). Event storming workshops yield domain model input and other analysis results; walking through an SOI started from an external business trigger may also contribute to ConOps creation and Context Exploration.
+[^2]: Several existing software engineering methods and tools emphasize context, for instance, the Domain-Driven Design tool [Context Mapper](https://contextmapper.org/) and architecture design methods such as those compiled in [Design Practice Repository/Reference (DPR)](https://socadk.github.io/design-practice-repository/). Event storming workshops yield domain model input and other analysis results; walking through a SOI started from an external business trigger may also contribute to ConOps creation and Context Exploration.
 
 <!--
 ## Acknowledgment
