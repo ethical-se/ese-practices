@@ -22,7 +22,7 @@ A parallel Transparency Management Process also exists. The artifacts produced a
 ESE selects concepts from IEEE Std. 7000 and integrates them into agile practices  
 See the [Glossary](ESE-Glossary.md) for brief summaries of IEEE Std. 7000 concepts and agile practices. All acronyms are defined there as well. 
 
-## Mappings between Agile Practices to/from Standards Concepts
+## Mappings between Agile Practices and Standards Concepts
 
 This section focusses on agile *practices*. See [Frequently Asked Questions (FAQ)](/ESE-FAQ.md#agile-values-and-principles) page for a mapping from Agile *values* and *practices* to ethical values and IEEE Std. 7000 (and back).
 
