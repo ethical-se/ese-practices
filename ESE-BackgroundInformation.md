@@ -17,7 +17,7 @@ A parallel Transparency Management Process also exists. The artifacts produced a
 
 ![From Value to Requirements to Design](/images/ESE-ConceptsAndTraceRelations.png)
 
-[Architecture Decision Records (ADRs)](https://adr.github.io/) are explained in [Design Practuce Repository (DPR)](https://socadk.github.io/design-practice-repository/activities/DPR-ArchitecturalDecisionCapturing.html). Ethical Reviews are a concept in ESE (this repository). 
+[Architecture Decision Records (ADRs)](https://adr.github.io/) are explained in [Design Practice Repository (DPR)](https://socadk.github.io/design-practice-repository/activities/DPR-ArchitecturalDecisionCapturing.html). Ethical Reviews are a concept in ESE (this repository). 
 
 ESE selects concepts from IEEE Std. 7000 and integrates them into agile practices  
 See the [Glossary](ESE-Glossary.md) for brief summaries of IEEE Std. 7000 concepts and agile practices. All acronyms are defined there as well. 
