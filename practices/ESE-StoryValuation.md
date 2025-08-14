@@ -10,13 +10,11 @@ Activity: *Story Valuation*
 ---------------------------
 also known as Value-Enhanced User Story Elicitation, People-Society-Planet INVESTing 
 
-<!-- TODO (v2) retrofit changes on ETHICOMP slides, process I7K comments on EVRs (?) -->
-
 *Quick links:* (1) [Goal and Purpose](#goal-and-purpose) (2) [Notations](#notations) (3) [Techniques](#valuation-techniques) (4) [Usage](#usage) (5) [Application Hints](#hints-and-pitfalls-to-avoid) (6) [Other Practices](/practices/) (7) [ESE Home](/README.md)
 
 ### Context
 
-According to Martin Fowler, software engineers are ["not just code monkeys"](https://www.youtube.com/watch?v=Z8aECe4lp44) but responsible and accountable for the software they build, its impact on users, society and the planet in particular. Ethical values guide responsible behavior; for instance, Annex G of [IEEE Std. 7000](https://ieeexplore.ieee.org/document/9967807) provides a collection of overarching core values. [^1] 
+According to Martin Fowler, software engineers are ["not just code monkeys"](https://www.youtube.com/watch?v=Z8aECe4lp44) but responsible and accountable for the software they build, its impact on users, society and the planet in particular. Ethical values guide responsible behavior; for instance, Annex G of [IEEE Std. 7000](https://ieeexplore.ieee.org/document/9967807) provides a collection of overarching core values.[^1] 
 
 [^1]: Note that the value collection in the standard is informative, not normative; it does not aim to be complete.
 
@@ -44,18 +42,13 @@ Note that value requirements are a new, additional type of Non-Functional Requir
 
 Start this activity in [Product Vision](https://www.scrum.org/resources/what-product-vision) (or a Sprint 0 or an MVP development); return to it and resume valuation in each sprint/iteration as/if needed.
 
-Apply one of the [techniques](#valuation-techniques) in ESE to do so and record your results in one of the proposed [notations](#notationso); alternatively, work with your own (or other recognized) techniques and notations; ESE is suggestive and not normative in this regard. 
+Apply one of the [techniques](#valuation-techniques) in ESE to do so and record your results in one of the proposed [notations](#notations); alternatively, work with your own (or other recognized) techniques and notations; ESE is suggestive and not normative in this regard. 
+The following figure shows which notations and techniques are available:
+  
+![ESE Story Valuation Structure](/images/ESE-SVStructure.png)
 
-#### Link to IEEE 7000
-
-This activity corresponds to the following steps/phases in the process normed by IEEE Std. 7000: 
-
-* "Ethical Values Elicitation and Prioritization Process" (Chapter/Clause 8)
-* "Ethical Requirements Definition Process" (Chapter/Clause 9)
-
-In IEEE Std. 7000 terms, story valuation populates the [Value Register](/ESE-Glossary.md#Value-Register) and yields [Ethical Value Requirements (EVRs)](/ESE-Glossary.md#EVR). Optionally (in ESE), the EVRs can be refined into [Value-Based System Requirements (VBSRs)](/ESE-Glossary.md#vbsr) as well. 
-
-The following UML object instance diagram (aka Value Tree) illustrates the relationships (note that the EVRs, VBSRs, and DE are examples): 
+In IEEE Std. 7000 terms, Story Valuation populates the [Value Register](/ESE-Glossary.md#Value-Register) and yields [Ethical Value Requirements (EVRs)](/ESE-Glossary.md#EVR). Optionally (in ESE), the EVRs can be refined into [Value-Based System Requirements (VBSRs)](/ESE-Glossary.md#vbsr) as well. 
+The following UML object instance diagram (aka Value Tree) illustrates these relationships with EVR, VBSR and Design Element (DE) examples: 
 
 ![ESE/IEEE 7000 Value Tree](/images/ESE-ValueObjectTree.png)
 
@@ -65,114 +58,19 @@ Note that the words [benefits](/ESE-Glossary.md#benefit) and [harms](/ESE-Glossa
 
 ### Notation(s)
 
-When following the above instructions to achieve the goal and purpose of Story Valuation, notations and/or text templates are required to record intermediate and final results; method techniques yielding such results are featured in [a later section](#valuation-techniques).
-
-#### Value Register
-ESE does not *mandate* any particular format for the IEEE Std. 7000 Value Register; overview figures and comparison tables can be well suited. We still *suggest* three novel formats here: Value Epic, Value Weighting and Value Narrative. 
-
-a) *Value Epic* is the first proposed notation template:
-
-~~~
-As a [stakeholder role/group],
-I value [core value],
-as demonstrated in: 
-- a realization of [related level 1 values]
-- a reduction of [opposing level 1 values].
-This value cluster has [H, M, L] priority for me. 
-~~~
-
-Values can be positive or negative in a given context; IEEE Std. 7000 explains that in Annex "B.3 Value axioms" (so absence of certain values, the negative ones, is good!). The wording in the template is inspired by the definition of terms in the standard. <!-- also used: "creation" and "prohibition" -->
-
-b) Complementary and/or alternatively, a relative *Value Weighting* makes a consideration/assessment explicit. It may look like this:
-
-~~~
-In the context of SOI [Name],
-stakeholder [Role/Group] values [Value 1] more than [Value 2]
-expecting benefits such as ...
-running the risk of harms such as ...  
-~~~
-
-Again, please note that the words [benefit](/ESE-Glossary.md#benefit) and [harm](/ESE-Glossary.md#harm) do not imply the usage, or sole usage, of any particular ethical theory here.  
-
-c) The third proposal, *Value Narrative*, links values to system behavior:
-
-~~~
-When the SOI executes [epic user story/use case NN],
-stakeholders expect it to promote, protect or create [values],
-possibly degrading or prohibiting [values]
-with the following externally observable and/or internally auditable behavior: [preconditions, postconditions]  
-~~~
-
-Collectively, the value epics, weightings, narratives comprise the Value Register for an SOI (or, picking up an agile term, the value backlog). See sections on techniques and examples for additional examples. 
-
-***Disclaimer:*** These proposals have not been fully validated yet; please view them as drafts, serving as invitations to a continued method engineering discussion. [Examples](#examples) follow.
-
-#### Ethical Value Requirement (EVRs)
-As an important type of non-functional requirements, [EVRs](/ESE-Glossary.md#evr) can be written up either in free form or in a structured way. IEEE Std. 7000 specifies how to document Values and EVRs in a rather elaborate form; or details, please refer to pages 40 to 42 in Clause 8 (Values) and then pages 44 to 46 (EVRs) in Clause 9 of the standard. 
-
-<!-- IEEE Std. 7000: 
-"NOTE 1—EVRs can be expressed in formal requirement statements, use cases, user stories, scenarios, or other forms." 
-"NOTE 2—EVRs can be used to translate the prioritized core values into the system’s value dispositions."
-
-"socio-technology statements that describe possible risk treatment options that may promote and protect the prioritized core values and realize the value demonstrators. Treatment options are technical, organizational, or social." [...] "Record each EVR with a unique reference number, its associated risks, prioritized core values, and related assumptions and constraints."
--->
-
-IEEE Std. 7000 gives an example of an EVR in the full-body scanner SOI in B.2: "The system shall protect the privacy of body images of scanned passengers.". The standard talks about "risk treatment options" (which are technical, organizational, social) and "value demonstrator realization". In ESE, we see these information elements at the interface/intersection between analysis and design.  
-
-The writeup of value requirements should pass the [SMART NFR](https://socadk.github.io/design-practice-repository/activities/DPR-SMART-NFR-Elicitation.html) test for non-functional requirements; making them context-specific (in terms of features or components) and measurable (so that they can be verified/tested) is particularly important.
-
-In ESE, EVRs may take the standard story form, slightly extended with a brief ethical value assessment:
-
-~~~
-As a [role]
-I want to [action/feature]
-so that [benefit] is achieved 
-  and that [values a, b, c] are promoted,
-  accepting that [values x, y, z] are reduced.
-~~~
-
-Alternatively, the value-enhanced user story may also refer to Value Register entries, possibly expressed as Value Epics, Value Weightings and/or Value Narratives (as introduced previously). Note that risk treatment options and value demonstrators are not made explicit in this template; such information can be added in free form.
- 
-#### Value-Based System Requirement (VBSRs)
-
-a) VBSRs may adopt the Quality Attribute Scenario (QAS) table format from the SEI ([introduction](https://socadk.github.io/design-practice-repository/artifact-templates/DPR-QualityAttributeScenario.html) with examples, [online article](https://www.codementor.io/@antoniopfesilva/how-to-write-meaningful-quality-attributes-for-software-development-ez8y90wyo) with more examples, [arc42 Quality Model](https://quality.arc42.org) with even more examples): 
-
-| Scenario Element | ESE Usage of Element |
-|-|-|
-| *Stimulus* | Epic or user story or component of SOI; Value Register entry and/or EVR as response |
-| *Concern Of (Source)* | Stakeholder as stimulus source |
-| *Observable When* | Environment (e.g., from ConOps) |
-| *Materializing In* | Artifact such as design element xyz in the [SOI](/ESE-Glossary.md/#soi) |
-| *Value Requirement/Response* | Observable behavior after stimulus, in envirinment and artifact |
-| *Value Requirement/Response Measure* | Quantification of observable behavior after stimulus |
-
-b) An alternative is a structured sentence resembling those used to record user stories and Architectural Decision Records (ADRs): 
-
-<!-- For a definition of "risk treatment option", see page 44 of IEE Std. 7000, NOTE 2 -->
-
-~~~
-VBSR-m [name]:
-To satisfy [EVR-n] and treat the risks related to it,
-a H/M/L priority concern of [stakeholder name, individual role or group],
- * the SOI has to implement technical risk treatment option ... (and/or)
- * the organization developing and operating the SOI has to ... (and/or)
- * the following social construct(s) will have to be realized ...
-~~~
-
-Quality stories were proposed in the context of ["Architectural Refactoring for the Cloud"](http://rdcu.be/lFW6) (Springer Computing, 2016); the quality story template from that article may also be considered here.
-
+In this version of ESE, the notation section of the Story Valuation practice is available on a [separate page](/practices/ESE-StoryValuation-Notation.md).
 
 ### Valuation Techniques 
 
 The valuation techniques proposed in ESE are:
 
-0. *Goals and Vision First*: [Question-Based Elicitation](#valuation-technique-0-question-based-value-elicitation-goals-and-risks-first) 
+0. *Goals and Vision First*: [Question-Based Elicitation](#valuation-technique-0-question-based-value-elicitation-goals-and-vision-first) 
 1. *User Requirements First*: [Story-Driven Value Jam](#valuation-technique-1-story-driven-value-jam-user-requirements-first)
 2. *Individual Values First*: [Catalog-Guided Value Mapping](#valuation-technique-2-catalog-guided-value-identification-ethical-values-first)
 
 Any combinations of these three techniques are eligible when following Agile methods. For instance, the [Product Vision](https://www.scrum.org/resources/what-product-vision) in Scrum may serve as a natural starting point for valuation activities, possibly using Question-Based Elicitation. Other techniques can be used and combined with the proposed three as well.
 
-The valuation results are captured with the help of the above [notations](#notations). Please note that all three techniques focus on values at present; value requirements are only touched upon. For the time being, please refer to Clause 9 of IEEE Std. 7000 for more detailed EVR and VBSR elicitation and prioritization advice.
+The valuation results are captured with the help of certain [notations](/practices/ESE-StoryValuation-Notation.md). Please note that all three techniques focus on values at present; value requirements are only touched upon. For the time being, please refer to Clause 9 of IEEE Std. 7000 for more detailed EVR and VBSR elicitation and prioritization advice.
 
 #### Valuation Technique 0: Question-Based Value Elicitation (Goals and Vision First)
 
@@ -220,7 +118,7 @@ Having answered the questions once, next steps may include to:
 * Ask similar questions from the perspective of key stakeholder groups not represented as personas/roles in the epic or story that is analyzed. For instance, investigate the values of service providers involved in story fulfillment. 
 * Prioritize and record the answers to these questions, for instance in a value tree or a value-enhanced use case diagram. 
 
-Again, the answers to the questions can be noted as Value Epics, Value Weightings and/or Value Narratives (but also other [Notations](#notations)). These artifacts then populate the Value Register for the [System of Interest (SOI)](/ESE-Glossary.md#soi). The technique may also yield a set of [EVRs](/ESE-Glossary.md#evr) and [VBSRs](/ESE-Glossary.md#vbsr), which can be stated as value-enhanced user stories or value QAS.
+Again, the answers to the questions can be noted as Value Epics, Value Weightings and/or Value Narratives (but also other [notations](/practices/ESE-StoryValuation-Notation.md)). These artifacts then populate the Value Register for the [System of Interest (SOI)](/ESE-Glossary.md#soi). The technique may also yield a set of [EVRs](/ESE-Glossary.md#evr) and [VBSRs](/ESE-Glossary.md#vbsr), which can be stated as value-enhanced user stories or value QAS.
 
 
 #### Valuation Technique 2: Catalog-Guided Value Identification (Ethical Values First)
@@ -262,7 +160,7 @@ The following steps can be followed when applying the technique:
 
 Repeat these steps for each stakeholder group. Keep an eye on effort, focus on and begin with high-priority, high-impact values. 
 
-You may want to record the results of Steps 1 to 3 in table form or another [notation](#notations):
+You may want to record the results of Steps 1 to 3 in table form or another [notation](/practices/ESE-StoryValuation-Notation.md):
 
 | Overarching Value (Core) | Related Values (Themes) | Priority | Potential Conflicts (Opposing Values) | Story/Narrative/Demonstrator/Example |
 |-|-|-|-|-|
@@ -273,126 +171,9 @@ You may want to record the results of Steps 1 to 3 in table form or another [not
 The filled-out table becomes the Value Register; the technique may also yield EVRs and VBSRs when refining the Story/Narrative/Demonstrator/Example entries in the table by asking "How are we going to realize/achieve ...?" questions during production vision work, requirements analysis and (early) design.
 
 
-
 ### Examples 
 
-#### Example 1: Same Day Delivery in an Online Shop 
-
-Take this high-level user story (aka epic):
-
-> *As an online shopper, I would like to receive ordered goods on the same day so that I can respond to emergency situations and use my time efficiently.* 
-
-The following example may result from an application of Valuation Technique 1, [User Requirements First](#valuation-technique-1-story-driven-value-jam-user-requirements-first). Its (incomplete, initial) story-based valuation may yield the following *Value Case Diagram*: 
-
-![](/images/ESE-ValueCaseDiagramExample.png)
-
-The diagram displays the Story Valuation result on value level. A collection of such Value Case Diagrams forms a lightweight Value Register (no explicit EVRs and VBSRs included in this example).  
-
-A related Value Narrative might be:
-
-~~~
-When the online shopping software executes the same say delivery epic (incl. split user stories that meet the INVEST criteria),
-stakeholders expect it to promote freedom and quality of life,
-possibly degrading or prohibiting work-life balance of suppliers and shopper privacy
-by exposing the following externally observable behavior:
-
-Given: Shop is operational and suited suppliers and logistics firms are available. 
-When: Same day delivery is promised during order acceptance and confirmation. 
-Then: Order arrives at shipment address until 11:59pm on the same say.   
-~~~
-
-
-#### Example 2: Insurance Scenario and System of Interest (SOI) 
-
-Let's use the Customer Self Service of [Lakeside Mutual](https://github.com/Microservice-API-Patterns/LakesideMutual) as an exemplary SOI. Let us assume that its ConOps has already been analyzed and documented. 
-
-<!-- user story taken from PfAD book, Chapter 2; TODO (v2) could also add NFRs from there -->
-
-> *As a customer of Lakeside Mutual, I want to update my contact information myself online so that the data is current. I do not want to have to call an agent for that, which may involve long waiting times.*
-
-On the first sprint/iteration of a related agile development project, the [Value Lead](/roles/ESE-ValueLead.md) asks the Senior [Product Manager](/roles/ESE-ProductManager.md), also serving as [User Advocate](/roles/ESE-UserAdvocate.md), and a System Expert to join her for a Story Valuation about the Customer Profile and Offer Management stories. She also takes the role of Moderator (see IEEE Std. 7000 for explanations of the System Expert and Moderator [roles](/roles/)).
-
-The participants decide to start with Valuation Technique 2, [Values First](#valuation-technique-2-catalog-guided-value-identification-ethical-values-first), and blend in elements from the other two techniques. They come up with the following table:
-
-| Overarching Value (Core) | Level 1 Values (Themes) | Priority | Potential Conflicts (Opposing Values) | Narrative/Demonstrator |
-|-|-|-|-|-|
-| Autonomy | Freedom | M | Accountability, auditability NFR | Profile management, archiving work with [Sensitive Personal Information (SPI)](https://www.linkedin.com/pulse/gdpr-approaches-protecting-personally-identifiable-wittkop-cissp) |
-| Fairness | Justice, equality | H | Bias | Offer preparation: insurance rates, risk uplifts |
-| Privacy | Confidentiality | H | Transparency | SPI transport, statistics (analytics) |
-
-They record the following prioritization and scoping decisions of core values, accompanied by value demonstrators: 
-
-1. *Autonomy:* Customers should at any time be able to fully delete all information stored about them without having to provide any reason for that. The effect of the deletion is immediate. *Value rationale:* The team values freedom more than accountability and auditability.
-2. *Fairness:* When an offer is made, the premium is based solely on demographic information that the customers opted in to provide and use. There is no personal judgment of any human being or any machine intelligence drawing from other sources involved. *Value rationale:* Concerning the overarching value of fairness, justice is strived for and bias to be avoided. 
-3. *Privacy:* Although regulators and other lines of business have a legitimate interest in the data collected, it remains on-premises and within the application boundary of the Lakeside Mutual services (backends). *Value rationale:* The team values data confidentiality over (certain facets of) transparency.
-
-One of the EVRs derived from these value demonstrators could be:
-
-~~~
-As a prospective customer of Lakeside Mutual,
-I want to manage my data profile autonomously 
-so that I am offered a valid and fairinsurance rate 
-  while my data remains private (data privacy is promoted),
-  accepting that accountability and auditability cannot be fully achieved.
-~~~
-
-A Value Quality Scenario for this example might be:
-
-|  | Profile Autonomy and Transparency Scenario |
-|-|-|
-| *Stimulus* | Read and write requests to User Profile Management (Story-form EVR stated previously) |
-| *Concern Of (Source)* | Prospective and actual customers |
-| *Observable When* | Profile is retrieved and displayed, offers are made (normal system operations, edge and error cases too) |
-| *Materializing In* | Customer database in Policy Management and Customer Core services of Lakeside Mutual systems, the [SOIs](/ESE-Glossary.md/#soi) |
-| *Value Requirement/Response* | There is one and only one API for the Customer profile, which is only accessed from the Customer Self Service and the Policy Management backends; data used for rate calculation is transparent/explained to customer |
-| *Value Requirement/Response Measure* | 0 data breaches, no use of data that is not specified |
-
-In this example, the Story Valuation output yields a new Value Register entry (value cluster), a new EVR, and a new VBSR.
-
-The analysis and design work in the first and following sprints/iterations (that pull other stories, or work with those resulting from [splitting](https://socadk.github.io/design-practice-repository/activities/DPR-StorySplitting.html) the rather broad one on Customer Self Service). Among other agile practices, the following design practices are used:  
-
-* [SMART Non-Functional Requirement (NFR) Elicitation](https://socadk.github.io/design-practice-repository/activities/DPR-SMART-NFR-Elicitation.html), possibly yielding "Agile Quality Scenarios", see this [pattern collection](https://socadk.github.io/patterns/reading-lists/agile-architecture.html).
-* [Architectural Decision Capturing](https://socadk.github.io/design-practice-repository/activities/DPR-ArchitecturalDecisionCapturing.html), referring to SMART NFRs including EVRs and/or VBSRs in the decision justifications (design rationale).
-* [Architecture Modeling](https://socadk.github.io/design-practice-repository/activities/DPR-ArchitectureModeling.html), featuring design elements that are introduced to satisfy EVRs and VBSRs.
-
-
-#### Example 3: Conference Management 
-
-This example features technique 0, [Goals and Vision First](#valuation-technique-0-question-based-value-elicitation-goals-and-vision-first) and the alternative notations not yet exemplified.
-
-<!-- TODO (v2) use different sample values from Annex G (?) -->
-~~~
-As a conference participant,
-I value data privacy,
-as demonstrated in: 
-- a realization of confidentiality of sensitive personal information such as my passport number 
-- a reduction of efficiency of operations for conference mansagement staff.
-This value cluster has high priority for me. 
-~~~
-
-~~~
-In the context of the conference registration system,
-conference participants value data privacy more than efficiency from a registration management staff point of view,
-expecting benefits such as confidentiality of sensitive personal information
-running the risk of harms such as higher conference fees and a slower registration process.  
-~~~
-
-<!-- TODO (v2) find more examples of "social constructs" and clarify origin of term. <https://en.wikipedia.org/wiki/Social_construct>-->
-
-~~~
-VBSR-1 CIA-Security:
-To satisfy the desire for data privacy and treat risks related to this core value,
-a H(igh) priority concern of conference participants,
- * the SOI has to implement HTTPS as technical treatment option and
- * the organization developing and operating the conference registration system has to restrict access to participant data and
- * understandable terms and conditions will have to be realized (as a social construct).
-~~~
-
-***Note:*** *This version of ESE does not provide any sample output of business-as-usual software engineering activities such as architecture design and implementation. That said, sample [Architectural Decision Records (ADRs)](https://medium.com/olzzio/how-to-review-architectural-decision-records-adrs-and-how-not-to-2707652db196) are featured in the example of an Ethical Review. See [Future Work](/ESE-FutureWork.md) for related method engineering ideas and plans.*
-
-<!-- TODO (v2) elaborate: What's next? Consequences (good and bad)? More discussions with stakeholders, less business growth but "gutes Gewissen". Some more work too. But less risk. See JEDi user stories and VDAD steps 4 to 7. -->
-
-The section on [notations](#notations) proposes the templates for this step that are featured in the examples.
+In this version of ESE, the examples section of the Story Valuation practice is available on a [separate page](/practices/ESE-StoryValuation-Examples.md).
 
 ### Usage
 
@@ -426,10 +207,12 @@ Final advice is:
 * Let the value-assessed stories (elicited in this activity) serve as input to value-based design decision-making. Capture the *rationale* for the decisions and include EVRs and VBSRs in the resulting [decision records](https://medium.com/olzzio/from-architectural-decisions-to-design-decisions-f05f6d57032b).
 * Validate and verify the *realization* of value-assessed stories in [Ethics Reviews](ESE-EthicalReview.md).
 
-<!-- TODO (v2) include a Stakeholder Type mind map and give advice, map to roles in standard: types/roles/personas, e.g. occasional and regular end user, differing values and usability needs -->
+<!-- TODO (v2) include a Stakeholder Type mind map and give advice, map to roles in standard: types/roles/personas, e.g. occasional and regular end user, differing values and usability needs, [O] model Lago paper figure with Context Mapper (VDAD support) -->
 
 ### Related Content
 
+The sibling repository and method [Value-Driven Analysis and Design (VDAD)](https://ethical-se.github.io/value-driven-analysis-and-design/) introduces two complementary practices, Stakeholder Mapping and Value Impact Mapping.
+  
 * The Product Backlog contains the stories to be valuated.
 * Sprint Planning picks stories from the backlog. Story Valuation is performed for each story selected for a sprint during Story Planning (but not part of it), or for a set of related stories such as those for an epic. It may happen during Production Vison work, in a Sprint 0 or in MVP development too (see related question in [FAQs](/ESE-FAQ.md)).
 * The [Definition of Ready](ESE-DefinitionOfReady.md) checks whether Story Valuation has been performed adequately; the [Definition of Done](ESE-DefinitionOfDone.md) asks whether the Story Valuation output has been respected in design, implementation and Acceptance Testing.
@@ -441,6 +224,12 @@ ESE does not contain any design practices at present; the [Design Practice Repos
 
 ### More Information 
 
+<!-- #### Link to IEEE 7000 -->
+This activity corresponds to the following steps/phases in the process normed by IEEE Std. 7000: 
+
+* "Ethical Values Elicitation and Prioritization Process" (Chapter/Clause 8)
+* "Ethical Requirements Definition Process" (Chapter/Clause 9)
+
 Ethical values <!-- and ways to handle them --> are covered in the following publication and online resources (selection): 
 
 * The article ["Human Values as the Basis for Sustainable Information System Design"](https://research.wu.ac.at/ws/portalfiles/portal/19837176/Human+Values+as+the+Basis+for+Stustainable+Information+Systems+Design+%28Pre-print%29.pdf) has many more examples of values.
@@ -450,8 +239,7 @@ Ethical values <!-- and ways to handle them --> are covered in the following pub
 * A 2019 conference presentation by Jennifer Riggins called ["How (and Why) to Factor Tech Ethics into Your Sprint"](https://www.infoq.com/presentations/tech-ethics-sprint/) and her article ["Tech Ethics New Year’s Resolution: Don’t Build Software You Will Regret"](https://thenewstack.io/tech-ethics-new-years-resolution-dont-build-software-you-will-regret/) ask valuation questions, effectively forestalling/antedating our three valuation techniques, for instance "What is the worst possible use case for this code?" Other questions concern connectivity and data transfer as well as data storage and lifetime.
 * Annex B of IEEE Std. 7000 covers value concepts, starting from philosophical foundations in B1; B2 presents an example and B.4 covers value ranking. Annex C is about ethical theories applied to ethical value elicitation, for instance, utilitarian ethics, virtue ethics, and duty ethics.
 * The [Proctive Consider, Analyze, Review, Evaluate (CARE)](https://ethics.acm.org/wp-content/uploads/2021/03/Proactive-CARE-for-Computing-Professionals.pdf) framework and [Software Development Impact Statements (SoDIS)](https://doi.org/10.17705/1CAIS.01540) as well as the [Consequence Scanning](https://doteveryone.org.uk/project/consequence-scanning/) practice also propose an active, "push" approach to knowledge sharing (just like ESE). Some of the questions raised in these publications and practices overlap with the ones in ESE; others are complementary.  
-<!-- TODO (v2) list JEDi here when public -->
-  
+
 More information about the INVEST principles/criteria is available in many places: 
 
 * [Wikipedia page](https://en.wikipedia.org/wiki/INVEST_(mnemonic)) for INVEST
@@ -460,7 +248,7 @@ More information about the INVEST principles/criteria is available in many place
 
 Other related practices and concepts include: 
 
-* Project Charter, see <https://www.agilealliance.org/glossary/project-chartering/> 
+* Project Charter, see <https://www.agilealliance.org/glossary/project-chartering/> <!--  TODO (v2) feature Moore template for Product Vision -->
 * DPR has a [User Story](https://socadk.github.io/design-practice-repository/artifact-templates/DPR-UserStory.html) artifact. There is an overview article on DPR on [Medium](https://medium.com/olzzio/design-practice-repository-and-reference-gitpages-and-ebook-enhanced-f43c107f2567).
 * The role-feature-benefit template for user stories is explained [here](https://www.agilealliance.org/glossary/user-story-template/).
 * Card, Conversation, Confirmation (3Cs) in [Agile Glossary](https://www.agilealliance.org/glossary/three-cs).
@@ -473,7 +261,7 @@ The [Agile Glossary](https://www.agilealliance.org/agile101/agile-glossary/) is 
 ```yaml
 title: "ESE activity: Story Valuation"
 author: Olaf Zimmermann (ZIO)
-date: "11, 20, 2023 (Version 1.0)"
-copyright: The author, 2023-2024 (unless noted otherwise). All rights reserved.
+date: "07, 28, 2025 (Version 1.2)"
+copyright: The author, 2023-2025 (unless noted otherwise). All rights reserved.
 license: Creative Commons Attribution 4.0 International License
 ```

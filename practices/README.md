@@ -2,7 +2,6 @@
 
 ESE extends three existing practices (activities, artifacts) and proposes two new ones. It also uses three existing ones (unchanged). 
 
-
 ## Practice (Activity/Artifact) Index 
 
 ESE includes a total of nine agile activities and artifacts, listed in alphabetical order here (which differs from usage flow):
@@ -17,9 +16,11 @@ ESE includes a total of nine agile activities and artifacts, listed in alphabeti
 * (unchanged) User Story, see entry in [Agile Alliance Glossary](https://www.agilealliance.org/glossary/user-stories/)
 * (extended activity) [Value Retrospective](ESE-ValueRetrospective.md) 
 
-<!-- TODO (v2) arrow between product backlog and unchanged ap missing (Jan 24) -->
+The following figure shows the new and the enhanced building blocks forming the core of ESE:
 
-The following UML class diagram shows how these method elements relate to each other: 
+![ESE Building Blocks](/images/ESE-BuildingBlocks.png)
+
+The following UML class diagram details how these method elements relate to each other: 
 
 ![ESE Practices and Their Relations](/images/ESE-Practices.png)
 
@@ -27,12 +28,13 @@ The following UML class diagram shows how these method elements relate to each o
 
 Note that the Scrum concept of Product Vision is not explicitly featured here. It is integrated in [Story Valuation](ESE-StoryValuation.md) and mapped in the [Background Information](/ESE-BackgroundInformation.md) though.
 
+<!-- taken out, figure also used in ESE-BackgroundInformation.md
 ## Process and Information Flow (IEEE 7000) 
 
 The following figure shows how the IEEE Std. 7000 concepts are logically connected with each other and with design decisions (yielding a practice usage flow): 
 
 ![From Value to Requirements to Design](/images/ESE-ConceptsAndTraceRelations.png) 
-<!-- note: figure also used in ESE-BackgroundInformation.md -->
+-->
 
 EVR stands for [Ethical Value Requirement](/ESE-Glossary.md#evr), VBSR for [Value-Based System Requirement](/ESE-Glossary.md#vbsr).
 
@@ -45,7 +47,14 @@ EVR stands for [Ethical Value Requirement](/ESE-Glossary.md#evr), VBSR for [Valu
 * [Background information](/ESE-BackgroundInformation.md) with mapping of ESE concepts to and from IEEE Std. 7000
 * [Literature](/ESE-Literature.md)
 
+## More Information 
 
+The sibling repository VDAD is available [here](https://ethical-se.github.io/value-driven-analysis-and-design/). The VDAD content also comes in the form of [GitPages](https://github.com/ethical-se/value-driven-analysis-and-design).
+
+["Towards responsible software engineering: combining value-based processes, agile practices, and green metering"](https://ethical-se.github.io/value-driven-analysis-and-design/assets/papers/TowardsResponsibleSoftwareEngineering-ISTAS2024.pdf) motivates the need for VDAD and ESE and explains how they complement each other.
+
+<!--
 ## Acknowledgment
 
 Version 1.0 of ESE was supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+-->

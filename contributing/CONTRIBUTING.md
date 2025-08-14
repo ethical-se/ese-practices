@@ -7,10 +7,9 @@ We are happy to welcome new contributors who want to help improve our collection
 
 * Feel free to create GitHub issues. 
     * Have a look at the ones labelled with "help wanted".
-* Submit pull requests. <!-- TODO (v2) provide a template, example: <https://github.com/JabRef/jabref/blob/master/.github/PULL_REQUEST_TEMPLATE.md> -->
+* Submit pull requests. 
     * If you do so, we assume that you own the intellectual property you submit (or have obtained the rights to do so), agree to open source it under the license of this repository, and therefore comply with this [Developer Certificate of Origin](https://developercertificate.org/). 
-    * We also expect you to respect the [ACM Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics) from June 22nd, 2018.
-    <!-- * There are templates for [artifact](DPR-ArtifactTemplate.md), [activity](DPR-ActivityTemplate.md), and [role](DPR-RoleTemplate.md) descriptions. -->
+    * We also expect you to respect the [ACM Code of Ethics and Professional Conduct](https://www.acm.org/code-of-ethics), June 22nd, 2018.
 * [Contact us](https://ozimmer.ch/about/) to discuss collaboration and integration opportunities.
 
 
@@ -18,9 +17,9 @@ We are happy to welcome new contributors who want to help improve our collection
 
 ```yaml
 title: CONTRIBUTING.md
-owner: Olaf Zimmermann (ZIO)
+author: Olaf Zimmermann (ZIO)
 date: "11, 08, 2023"
-copyright: Olaf Zimmermann, 2023-2024 (unless noted otherwise). All rights reserved.
+copyright: The author, 2023-2025 (unless noted otherwise). All rights reserved.
 ```
 
 ### License

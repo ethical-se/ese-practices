@@ -45,9 +45,10 @@ Any other feedback on method content and its presentation (including repository 
 [CONTIBUTING.md](/contributing/) specifies how to get provide feedback and how to contribute.
 
 *November 13, 2023*  
-*[ZIO](https://medium.com/olzzio) aka Olaf Zimmermann*
+*[ZIO](https://medium.com/olzzio)*
 
-
+<!--
 ## Acknowledgment
 
 Version 1.0 of ESE was supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+-->

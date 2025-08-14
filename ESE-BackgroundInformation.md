@@ -1,22 +1,32 @@
 # Ethical Software Engineering (ESE) and IEEE Std. 7000
 
+This page provides background information on IEEE Std. 7000
+
 *Note:* Access to [IEEE Std. 7000](https://standards.ieee.org/ieee/24748-7000/11098/) is free after registration for IEEE Xplore (click on "Access via Subscription").
 
-## Method (Processes, Concepts) Overview
+## Processes and Concepts Overview
 
-IEEE Std. 7000 advises how to go from context to value to requirements to design:
-<!-- TODO (v2): could call out Clauses in standard that introduce the concepts (processes that produce the artifacts) -->
+IEEE Std. 7000 advises going from context to value to requirements to design in four steps (source: Figure 1—Relationship of processes and stages in IEEE Std 7000):
+
+* Concept of Operations (ConOps) and Context Exploration Process
+* Ethical Values Elicitation and Prioritization Process
+* Ethical Requirements Definition Process
+* Ethical Risk-Based Design Process
+
+A parallel Transparency Management Process also exists. The artifacts produced along the way are shown in the following figure (own presentment):
 
 ![From Value to Requirements to Design](/images/ESE-ConceptsAndTraceRelations.png)
 
-ADRs and Ethical Reviews are concepts from [DPR](https://socadk.github.io/design-practice-repository/activities/DPR-ArchitecturalDecisionCapturing.html) and ESE (this repository), respectively.
+[Architecture Decision Records (ADRs)](https://adr.github.io/) are explained in [Design Practice Repository (DPR)](https://socadk.github.io/design-practice-repository/activities/DPR-ArchitecturalDecisionCapturing.html). Ethical Reviews are a concept in ESE (this repository). 
 
-
-## Mappings between Agile Practices to Standards Concepts
-
+ESE selects concepts from IEEE Std. 7000 and integrates them into agile practices  
 See the [Glossary](ESE-Glossary.md) for brief summaries of IEEE Std. 7000 concepts and agile practices. All acronyms are defined there as well. 
 
-### From Agile practices to IEEE Std. 7000 concepts
+## Mappings between Agile Practices and Standards Concepts
+
+This section focusses on agile *practices*. See [Frequently Asked Questions (FAQ)](/ESE-FAQ.md#agile-values-and-principles) page for a mapping from Agile *values* and *practices* to ethical values and IEEE Std. 7000 (and back).
+
+### From Agile Practices to IEEE Std. 7000 Concepts
 
 | Agile Practice | Related IEEE Std. 7000 Concept | Comments |
 |-|-----------------------------------------------------|-|
@@ -29,7 +39,7 @@ See the [Glossary](ESE-Glossary.md) for brief summaries of IEEE Std. 7000 concep
 
 The Scrum concept of [Product Vision](https://www.scrum.org/resources/what-product-vision) can also be mapped, to Clause 7 in particular, but also Clause 8 (the clauses are the chapters of the standard).
 
-### From IEEE Std. 7000 processes to Agile practices
+### From IEEE Std. 7000 Processes to Agile Practices
 
 | IEEE Std. 7000 | Related Agile Practice  | Comments |
 |-|-|-|
@@ -41,13 +51,10 @@ The Scrum concept of [Product Vision](https://www.scrum.org/resources/what-produ
 
 [^1]: Note that the term "operations" in ConOps refers to the functioning of an application or system here; it is not to be confused with the Ops in DevOps and systems/service management (superset relation). IEEE Std. 7000 defines ConOps as "verbal and/or graphic statement, in broad outline, of an organization’s assumptions or intent in regard to an operation or series of operations" and then "The concept is designed to give an overall picture of the organization operations". ConOps has its roots in ISO/IEC/IEEE15288:2015.
 
-[^2]: Several existing software engineering methods and tools emphasize context, for instance, the Domain-Driven Design tool [Context Mapper](https://contextmapper.org/) and architecture design methods such as those compiled in [Design Practice Repository/Reference (DPR)](https://socadk.github.io/design-practice-repository/). Event storming workshops yield domain model input and other analysis results; walking through an SOI started from an external business trigger may also contribute to ConOps creation and Context Exploration.
+[^2]: Several existing software engineering methods and tools emphasize context, for instance, the Domain-Driven Design tool [Context Mapper](https://contextmapper.org/) and architecture design methods such as those compiled in [Design Practice Repository/Reference (DPR)](https://socadk.github.io/design-practice-repository/). Event storming workshops yield domain model input and other analysis results; walking through a SOI started from an external business trigger may also contribute to ConOps creation and Context Exploration.
 
-### From Agile Value and Practices to Ethical Values (and Back)
-
-See [Frequently Asked Questions (FAQ)](/ESE-FAQ.md#agile-values-and-principles) page for the time being.
-
-
+<!--
 ## Acknowledgment
 
 Version 1.0 of ESE was supported by the [Hasler Foundation](https://haslerstiftung.ch/en/welcome-to-the-hasler-foundation/).
+-->

@@ -1,39 +1,33 @@
 
 # Ethical Software Engineering (ESE)
 
-*News (March 14, 2024):* ESE featured at ETHICOMP 2024 *"Bringing Ethical Values into Agile Software Development"*: 
+*Quick links:* (1) [Story Valuation](./practices/ESE-StoryValuation.md), (2) [Ethical Review](./practices/ESE-EthicalReview.md), (3) two-way [Practice-Process Mappings](./ESE-BackgroundInformation.md#from-agile-practices-to-ieee-std-7000-concepts) (4) [Glossary](ESE-Glossary.md) (5) [FAQs](ESE-FAQ.md)  
+*Sibling repository:* Value-Driven Analysis and Design, seven-step [process](https://ethical-se.github.io/value-driven-analysis-and-design/process/), two additional [practices](https://ethical-se.github.io/value-driven-analysis-and-design/practices/).
 
-* Conference [presentation](https://ozimmer.ch/assets/presos/ZIO-ESEAtETHICOMPv10p.pdf) (PDF, 23 slides)
-* Peer-reviewed [extended abstract](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf) (PDF, 3 pages)
-* Full proceedings [paper](resources/ESE-ETHICOMP2024FullPaperAuthorsCopyV101.pdf) (PDF, 10 pages)
-
-*Sibling repository:* [Value-Driven Analysis and Design](https://github.com/ethical-se/value-driven-analysis-and-design)
-
-* Seven-step process 
-* Two additional practices, Stakeholder Mapping and Value-Impact Mapping
-
-## Overview and Orientation
-
-*TL;DR:* [IEEE Std. 7000](https://ieeexplore.ieee.org/document/9536679) meets Agile practices
-(note: access to IEEE Std. 7000 is free after registration for IEEE Xplore).
-
-![Agile and ESE Practices per IEEE 7000 stage and phase](/images/ESE-OverlayIEEE7000.png)
-
-*Quick links:* (1) [Story Valuation](./practices/ESE-StoryValuation.md), (2) [Ethical Review](./practices/ESE-EthicalReview.md), (3) two-way [Practice-Process Mappings](./ESE-BackgroundInformation.md#from-agile-practices-to-ieee-std-7000-concepts) (4) [Glossary](ESE-Glossary.md) (5) [FAQs](ESE-FAQ.md)
-
-## Motivation
-
-<!-- TODO (v2) cite form CoC preamble (see ETHICOMP presentation notes) -->
+## ESE Goals  
 
 Ethical Software Engineering (ESE) is for you if: 
 
-1. You see yourself as a socially responsible software engineer. <!--, not just a "code monkey".[^1] -->
-2. You see the risk that the software under construction may have undesired and/or unexpected and/or unjustified effects for one or more of its stakeholder groups and want to manage and mitigate this risk.  
-3. You look for a set of essential, as-light-as-possible practices that increase the chances of your project or product development effort becoming compliant with IEEE Std. 7000. 
+1. You see yourself as a socially *responsible software engineer*. <!--, not just a "code monkey".[^1] -->
+2. You want to *manage and mitigate the risk* that a project or product development effort and the software under construction may have undesired and/or unexpected and/or unjustified effects for one or more of its stakeholder groups.  
+3. You look for a set of *essential<!--, as-light-as-possible--> practices that help to adopt IEEE Std. 7000*. 
 
 <!-- [^1]: "Code monkey" is a term used by Martin Fowler in presentations on the topic. We use it here under the assumption that monkeys will not feel discriminated by this term. -->
 
-ESE targets any software engineer[^2] who wishes to create ethically valuable software, agile teams in particular. Its motivating themes are:[^1]
+<!-- TODO (v2) cite from CoC preamble (see ETHICOMP presentation notes) -->
+<!-- TODO (v2) show a filled-out Value Story too, as figure? -->
+
+Let's assume that a development team has been assembled to enhance an online shop with a same-day delivery capability. Different stakeholders exist, and their project goals differ too:
+
+![Motivating example: ethical and other values in a same-day delivery scenario](/images/ETHICOMP2024-SDDExample.png)
+
+ESE aims at answering the questions and managing value conflicts systematically. It does not mandate or enforce any particular values, but provides a framework for value-based, ethical software engineering.
+
+## ESE Approach 
+
+ESE targets any software engineer[^2] who wishes to create ethically valuable software, agile teams in particular. See [roles folder](./roles/README.md) for user stories, shared with the sibling [Value-Driven Analysis and Design (VDAD)](https://ethical-se.github.io/value-driven-analysis-and-design/user-stories) project. 
+
+Principles that guided the design of ESE include:[^1]
 
 * *Synergies:* A value- and risk-based approach to design is very much at the heart of agile methods; for instance, [Extreme Programming](https://www.agilealliance.org/glossary/xp) aims at balancing cost, time, quality and scope variables. <!-- Sources: "Extreme Programming Explained" by Kent Beck and the "iron cross" discussion in "Clean Agile" by Robert C. Martin -->  
 * *Dual relation:* Agile practices may promote social responsibility and ethical behavior, but may also harm ethical values. The devil is in the detail, software usage context matters. 
@@ -45,30 +39,12 @@ ESE targets any software engineer[^2] who wishes to create ethically valuable so
  
 [^3]: For instance, search for terms such as "ethics" on the [website](https://www.agilealliance.org/) of the Agile Alliance.
 
-But what are ethical values? Our glossary references the definitions of the terms [value](/ESE-Glossary.md#value) and [ethical value](/ESE-Glossary.md#ethical-value) from IEEE Std. 7000; the [Merriam-Webster Dictionary](https://www.merriam-webster.com/dictionary/ethic) defines the term "ethic".
-The following figure shows three different meanings of the term "value", depending on the viewpoint taken:
+ESE lets [IEEE Std. 7000](https://ieeexplore.ieee.org/document/9536679) meet Agile practices (note: access to IEEE Std. 7000 is free after registration for IEEE Xplore):
 
-![](/images/ESE-ValueHierarchy.png)
-
-For additional motivation for ethical software engineering and terminology clarification, please refer to ["Are Programmers Ethically (and Legally) Responsible for Their Code?"](https://thenewstack.io/are-programmers-ethically-and-legally-responsible-for-their-code/), an article by Jennifer Riggins on The New Stack (Aug 16, 2018).
-
-<!--
-TODO (v2) add section 
-
-## Goals and Approach
-
-Goals and non-goals: 
-
-* + raise awareness, - allow for ethics washing 
-* + stimulate discussions, - over-simplify or reduce time to think and decide 
-* + education aid, - command/control tool 
-* + decision support, - decision making
-
-Approach: "attention and reflection" are required to become a responsibleSWE; ESE provides motivation, examples, pointers, TODOs for team/roles; but no simple workflow (or even answers) or set of checkbox questions (topic is too complex and too "wicked" for that) or predefine value catalogs with right-wrong intructions, in the spirit of "positive responsibility" (John Ladd, 1993). 
--->
+![Agile and ESE Practices per IEEE 7000 stage and phase](/images/ESE-OverlayIEEE7000.png)
 
 
-## Repository Navigation 
+## ESE Repository Content Navigation 
 
 ESE provides new and/or enhanced [practices](./practices/) (i.e., activities and artifacts):
 
@@ -87,36 +63,42 @@ Other folders and pages in this repository include:
 Other content is linked in the directory-level index pages.
 
 
-## Prerequisite Knowledge and Background Information
-
-*Working with ESE (the content of this repository) does not assume that you have read the IEEE Std. 7000 end to end.* It is helpful but not required to be familiar with its concepts and processes; these are introduced and/or referenced as needed. 
+## Prerequisite Knowledge 
 
 Experience with the Agile practices that ESE applies, extends or complements is welcome and useful but not strongly required; links and examples provide opportunities to catch up.
 
+Working with ESE (the content of this repository) does not assume that you have read the IEEE Std. 7000. It is helpful but not required to be familiar with selected concepts and processes; these are introduced and/or referenced as needed. 
 The [Background Information](ESE-BackgroundInformation.md) page provides value comparisons and mappings from IEEE Std. 7000 to Agile concepts and practices (and back).
 
+## Background Information 
 
-## Glossary
+What are (ethical) values? Which ones matter? Our [Glossary](ESE-Glossary.md)  references the definitions of the terms [value](/ESE-Glossary.md#value) and [ethical value](/ESE-Glossary.md#ethical-value) from IEEE Std. 7000; the [Merriam-Webster Dictionary](https://www.merriam-webster.com/dictionary/ethic) defines the term "ethic".
 
-The [Glossary](ESE-Glossary.md) defines and explains terms in IEEE Std. 7000, Agile, ESE.
+The following figure shows three different meanings of the term "value", depending on the viewpoint taken:
 
+![](/images/ESE-ValueHierarchy.png)
 
-## Frequently Asked Questions
+For additional motivation for ethical software engineering and terminology clarification, please refer to ["Are Programmers Ethically (and Legally) Responsible for Their Code?"](https://thenewstack.io/are-programmers-ethically-and-legally-responsible-for-their-code/), an article by Jennifer Riggins on The New Stack (Aug 16, 2018).
 
-A collection of [Frequently Asked Questions (FAQs)](ESE-FAQ.md) is available.
+ESE was featured at the ETHICOMP 2024 conference: 
 
+* Conference presentation ["Bringing Ethical Values into Agile Software Development"](https://ozimmer.ch/assets/presos/ZIO-ESEAtETHICOMPv10p.pdf) (PDF, 23 slides)
+* Peer-reviewed [extended abstract](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf) (PDF, 3 pages)
+* Full proceedings [paper](resources/ESE-ETHICOMP2024FullPaperAuthorsCopyV101.pdf) (PDF, 10 pages)
 
-## Literature and Related Work
+Several additional resources are available within ESE: 
 
-See [Bibliography page](ESE-Literature.md).
+* A [Glossary](ESE-Glossary.md) defines and explains terms in IEEE Std. 7000, Agile, ESE.
+* A collection of [Frequently Asked Questions (FAQs)](ESE-FAQ.md) is available.
+* Literature and related work appear in a [Bibliography](ESE-Literature.md).
 
 
 ## Evaluation and Feedback 
 
 See [experimentation](/experimentation/) folder and README.
 
-*August 22, 2024*  
-*[ZIO](https://medium.com/olzzio) aka Olaf Zimmermann*
+*July 28, 2025*  
+*[ZIO](https://ozimmer.ch/about/)*
 
 
 ## Acknowledgments
