@@ -13,7 +13,7 @@ IEEE Std. 7000 advises going from context to value to requirements to design in 
 * Ethical Requirements Definition Process
 * Ethical Risk-Based Design Process
 
-There also is parallel Transparency Management Process. The artifacts produced along the way are shown in the following figure (own presentment):
+A parallel Transparency Management Process also exists. The artifacts produced along the way are shown in the following figure (own presentment):
 
 ![From Value to Requirements to Design](/images/ESE-ConceptsAndTraceRelations.png)
 

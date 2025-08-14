@@ -14,7 +14,7 @@ The ETHICOMP 2024 presentation is [available for download](https://ozimmer.ch/as
 
 *Note:* Access to [IEEE Std. 7000](https://standards.ieee.org/ieee/24748-7000/11098/) is free after registration for IEEE Xplore (click on "Access via Subscription").
 
-* Rebekka Wohlrab, Marc Herrmann, Christopher Lazik, Marvin Wyrich, Ines Nunes, Kurt Schneider, Lucas Gren, and Robert Heinrich: ["Supporting value-aware software engineering through traceability and value tactics"](https://rebekkaa.github.io/files/Wohlrab2024_PROFES.pdf), Prof. of PROFES 2024, Springer LNCS
+* Rebekka Wohlrab, Marc Herrmann, Christopher Lazik, Marvin Wyrich, Ines Nunes, Kurt Schneider, Lucas Gren, and Robert Heinrich: ["Supporting value-aware software engineering through traceability and value tactics"](https://rebekkaa.github.io/files/Wohlrab2024_PROFES.pdf), Proc. of PROFES 2024, Springer LNCS
 * ["Value-Based Engineering: A Guide to Building Ethical Technology for Humanity"](https://www.degruyterbrill.com/document/doi/10.1515/9783110793383/html), Sarah Spiekermann, De Gruyter 2023; sample chapter available from [ResearchGate](https://www.researchgate.net/publication/369078837_Value-Based_Engineering_A_Guide_to_Building_Ethical_Technology_for_Humanity)
 * ["What to Expect From IEEE 7000: The First Standard for Building Ethical Systems"](https://technologyandsociety.org/what-to-expect-from-ieee-7000-the-first-standard-for-building-ethical-systems/), IEEE Technology and Society, Sarah Spiekermann, 2022 
 * ["Why"](https://www.wu.ac.at/value-based-engineering/why/) Value-based Engineering with ISO/IEC/IEEE 24748-7000: motivation behind the standard and UNICEF case study  
@@ -33,7 +33,7 @@ The ETHICOMP 2024 presentation is [available for download](https://ozimmer.ch/as
 ### Background Information on Agile Software Development
 
 * [Agile Manifesto](https://agilemanifesto.org/)
-* Homepage of the [Agile Alliance](https://www.agilealliance.org/) that provides the Agile Manifesto, a "Subway Map to Agile Practices", an glossary, and other resources:
+* Homepage of the [Agile Alliance](https://www.agilealliance.org/) that provides the Agile Manifesto, a "Subway Map to Agile Practices", a glossary, and other resources:
   * Agile Coaching Ethics, <https://www.agilealliance.org/agilecoachingethics/#code>
 * [Design Practice Repository and Reference (DPR)](https://socadk.github.io/design-practice-repository/) for agile architecting, API design, and beyond (since 2020)
 

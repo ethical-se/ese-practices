@@ -1,6 +1,6 @@
 ## Future Work 
 
-ESE is maintenance mode. If method research and development continue at some point, possible future work includes:
+ESE is in maintenance mode. If method research and development continue at some point, possible future work includes:
 
 * Adopt and extend ESE for responsible AI
 * Provide more application/adoption [examples](/examples/)
