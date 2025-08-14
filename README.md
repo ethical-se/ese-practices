@@ -82,7 +82,7 @@ For additional motivation for ethical software engineering and terminology clari
 
 ESE was featured at the ETHICOMP 2024 conference: 
 
-* Conference presentation [""Bringing Ethical Values into Agile Software Development""](https://ozimmer.ch/assets/presos/ZIO-ESEAtETHICOMPv10p.pdf) (PDF, 23 slides)
+* Conference presentation ["Bringing Ethical Values into Agile Software Development"](https://ozimmer.ch/assets/presos/ZIO-ESEAtETHICOMPv10p.pdf) (PDF, 23 slides)
 * Peer-reviewed [extended abstract](https://dialnet.unirioja.es/descarga/articulo/9326119.pdf) (PDF, 3 pages)
 * Full proceedings [paper](resources/ESE-ETHICOMP2024FullPaperAuthorsCopyV101.pdf) (PDF, 10 pages)
 
