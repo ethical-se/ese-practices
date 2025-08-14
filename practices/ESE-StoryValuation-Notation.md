@@ -49,7 +49,7 @@ possibly degrading or prohibiting [values]
 with the following externally observable and/or internally auditable behavior: [preconditions, postconditions]  
 ~~~
 
-Collectively, the value epics, weightings, narratives comprise the Value Register for an SOI (or, picking up an agile term, the value backlog). See sections on techniques and examples for additional examples. 
+Collectively, the value epics, weightings, narratives comprise the Value Register for a SOI (or, picking up an agile term, the value backlog). See sections on techniques and examples for additional examples. 
 
 ***Disclaimer:*** Please view these proposed notations as intermdiate drafts, serving as invitations to a continued method engineering discussion. [Examples](/practices/ESE-StoryValuation.md#examples) are available.
 
